@@ -1,0 +1,13 @@
+Asset Usage Finder v2.0
+
+Importing the Asset Usage Finder package adds a content menu item to Unity, "Select files dependent on", which allows you to find in which 
+- Assets,
+- Shaders,
+- Scenes,
+- GameObjects 
+particular asset is being used. The search can be done for:
+- Component in Scene
+- Asset in Scene
+- File
+
+All results will be shown in separate window.
