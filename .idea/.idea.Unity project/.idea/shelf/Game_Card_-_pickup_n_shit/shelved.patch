@@ -1,0 +1,809 @@
+Index: Assets/Resources/UI/Common/SimpleControls.prefab
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Resources/UI/Common/SimpleControls.prefab	(revision 2694)
++++ Assets/Resources/UI/Common/SimpleControls.prefab	(date 1564673773000)
+@@ -355,6 +355,381 @@
+   m_Script: {fileID: 11500000, guid: 05d8e06b29d9420b87d2ffd70bd5fd30, type: 3}
+   m_Name: 
+   m_EditorClassIdentifier: 
++--- !u!1 &1878906492277661711
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 8101836935096800377}
++  - component: {fileID: 733176113754764166}
++  - component: {fileID: 2294725532549968566}
++  m_Layer: 5
++  m_Name: Background
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!224 &8101836935096800377
++RectTransform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1878906492277661711}
++  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_Children: []
++  m_Father: {fileID: 3549366441328384834}
++  m_RootOrder: 0
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++  m_AnchorMin: {x: 0, y: 0}
++  m_AnchorMax: {x: 1, y: 1}
++  m_AnchoredPosition: {x: 0, y: 0}
++  m_SizeDelta: {x: -60, y: -60}
++  m_Pivot: {x: 0.5, y: 0.5}
++--- !u!222 &733176113754764166
++CanvasRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1878906492277661711}
++  m_CullTransparentMesh: 0
++--- !u!114 &2294725532549968566
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1878906492277661711}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_Material: {fileID: 0}
++  m_Color: {r: 1, g: 0.28627455, b: 0.40096536, a: 1}
++  m_RaycastTarget: 1
++  m_OnCullStateChanged:
++    m_PersistentCalls:
++      m_Calls: []
++    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
++      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
++  m_Sprite: {fileID: 21300000, guid: 26ed2736c50fd4c858aa43eb55545a30, type: 3}
++  m_Type: 1
++  m_PreserveAspect: 0
++  m_FillCenter: 1
++  m_FillMethod: 4
++  m_FillAmount: 1
++  m_FillClockwise: 1
++  m_FillOrigin: 0
++  m_UseSpriteMesh: 0
++--- !u!1 &2084884693551989169
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 2084884693551989168}
++  - component: {fileID: 2084884693551989173}
++  - component: {fileID: 2084884693551989170}
++  - component: {fileID: 2084884693551989171}
++  - component: {fileID: 2084884693551989172}
++  m_Layer: 5
++  m_Name: PlayCard
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!224 &2084884693551989168
++RectTransform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2084884693551989169}
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_Children:
++  - {fileID: 3549366441328384834}
++  - {fileID: 2084884694532995925}
++  m_Father: {fileID: 4114202648787812515}
++  m_RootOrder: 7
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++  m_AnchorMin: {x: 0.5, y: 0.5}
++  m_AnchorMax: {x: 0.5, y: 0.5}
++  m_AnchoredPosition: {x: 953, y: 289}
++  m_SizeDelta: {x: 160, y: 100}
++  m_Pivot: {x: 0.5, y: 0.5}
++--- !u!222 &2084884693551989173
++CanvasRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2084884693551989169}
++  m_CullTransparentMesh: 0
++--- !u!114 &2084884693551989170
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2084884693551989169}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_Material: {fileID: 0}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_RaycastTarget: 1
++  m_OnCullStateChanged:
++    m_PersistentCalls:
++      m_Calls: []
++    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
++      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
++  m_Sprite: {fileID: 21300000, guid: 26ed2736c50fd4c858aa43eb55545a30, type: 3}
++  m_Type: 1
++  m_PreserveAspect: 0
++  m_FillCenter: 1
++  m_FillMethod: 4
++  m_FillAmount: 1
++  m_FillClockwise: 1
++  m_FillOrigin: 0
++  m_UseSpriteMesh: 0
++--- !u!114 &2084884693551989171
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2084884693551989169}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_Navigation:
++    m_Mode: 3
++    m_SelectOnUp: {fileID: 0}
++    m_SelectOnDown: {fileID: 0}
++    m_SelectOnLeft: {fileID: 0}
++    m_SelectOnRight: {fileID: 0}
++  m_Transition: 1
++  m_Colors:
++    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
++    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
++    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
++    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
++    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
++    m_ColorMultiplier: 1
++    m_FadeDuration: 0.1
++  m_SpriteState:
++    m_HighlightedSprite: {fileID: 0}
++    m_PressedSprite: {fileID: 0}
++    m_SelectedSprite: {fileID: 0}
++    m_DisabledSprite: {fileID: 0}
++  m_AnimationTriggers:
++    m_NormalTrigger: Normal
++    m_HighlightedTrigger: Highlighted
++    m_PressedTrigger: Pressed
++    m_SelectedTrigger: Highlighted
++    m_DisabledTrigger: Disabled
++  m_Interactable: 1
++  m_TargetGraphic: {fileID: 2084884693551989170}
++  m_OnClick:
++    m_PersistentCalls:
++      m_Calls: []
++    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
++      Culture=neutral, PublicKeyToken=null
++--- !u!114 &2084884693551989172
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2084884693551989169}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 23eed9e848754de9a6baef90c0c431a5, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  SelectButton: {fileID: 0}
++  playButton: {fileID: 2084884693551989171}
++  buttonText: {fileID: 2084884694532995924}
++  energyCostText: {fileID: 0}
++  progressImg: {fileID: 8942409911029077371}
++--- !u!1 &2084884694532995922
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 2084884694532995925}
++  - component: {fileID: 2084884694532995927}
++  - component: {fileID: 2084884694532995924}
++  m_Layer: 5
++  m_Name: CardName
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!224 &2084884694532995925
++RectTransform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2084884694532995922}
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_Children: []
++  m_Father: {fileID: 2084884693551989168}
++  m_RootOrder: 1
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++  m_AnchorMin: {x: 0, y: 0}
++  m_AnchorMax: {x: 1, y: 1}
++  m_AnchoredPosition: {x: 0, y: 10}
++  m_SizeDelta: {x: 0, y: -40}
++  m_Pivot: {x: 0.5, y: 0.5}
++--- !u!222 &2084884694532995927
++CanvasRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2084884694532995922}
++  m_CullTransparentMesh: 0
++--- !u!114 &2084884694532995924
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2084884694532995922}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_Material: {fileID: 0}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_RaycastTarget: 1
++  m_OnCullStateChanged:
++    m_PersistentCalls:
++      m_Calls: []
++    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
++      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
++  m_text: Action card
++  m_isRightToLeft: 0
++  m_fontAsset: {fileID: 11400000, guid: 29981389bef24ab4f903c26e1bee4bea, type: 2}
++  m_sharedMaterial: {fileID: 21773868437841290, guid: 29981389bef24ab4f903c26e1bee4bea,
++    type: 2}
++  m_fontSharedMaterials: []
++  m_fontMaterial: {fileID: 0}
++  m_fontMaterials: []
++  m_fontColor32:
++    serializedVersion: 2
++    rgba: 4294967295
++  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
++  m_enableVertexGradient: 0
++  m_colorMode: 3
++  m_fontColorGradient:
++    topLeft: {r: 1, g: 1, b: 1, a: 1}
++    topRight: {r: 1, g: 1, b: 1, a: 1}
++    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
++    bottomRight: {r: 1, g: 1, b: 1, a: 1}
++  m_fontColorGradientPreset: {fileID: 0}
++  m_spriteAsset: {fileID: 0}
++  m_tintAllSprites: 0
++  m_overrideHtmlColors: 0
++  m_faceColor:
++    serializedVersion: 2
++    rgba: 4294967295
++  m_outlineColor:
++    serializedVersion: 2
++    rgba: 4278190080
++  m_fontSize: 16
++  m_fontSizeBase: 16
++  m_fontWeight: 400
++  m_enableAutoSizing: 0
++  m_fontSizeMin: 18
++  m_fontSizeMax: 72
++  m_fontStyle: 0
++  m_textAlignment: 258
++  m_isAlignmentEnumConverted: 1
++  m_characterSpacing: 0
++  m_wordSpacing: 0
++  m_lineSpacing: 0
++  m_lineSpacingMax: 0
++  m_paragraphSpacing: 0
++  m_charWidthMaxAdj: 0
++  m_enableWordWrapping: 1
++  m_wordWrappingRatios: 0.4
++  m_overflowMode: 0
++  m_firstOverflowCharacterIndex: -1
++  m_linkedTextComponent: {fileID: 0}
++  m_isLinkedTextComponent: 0
++  m_isTextTruncated: 0
++  m_enableKerning: 1
++  m_enableExtraPadding: 0
++  checkPaddingRequired: 0
++  m_isRichText: 1
++  m_parseCtrlCharacters: 1
++  m_isOrthographic: 1
++  m_isCullingEnabled: 0
++  m_ignoreRectMaskCulling: 0
++  m_ignoreCulling: 1
++  m_horizontalMapping: 0
++  m_verticalMapping: 0
++  m_uvLineOffset: 0
++  m_geometrySortingOrder: 0
++  m_firstVisibleCharacter: 0
++  m_useMaxVisibleDescender: 1
++  m_pageToDisplay: 1
++  m_margin: {x: 0, y: 0, z: 0, w: 0}
++  m_textInfo:
++    textComponent: {fileID: 2084884694532995924}
++    characterCount: 11
++    spriteCount: 0
++    spaceCount: 1
++    wordCount: 2
++    linkCount: 0
++    lineCount: 2
++    pageCount: 1
++    materialCount: 1
++  m_havePropertiesChanged: 0
++  m_isUsingLegacyAnimationComponent: 0
++  m_isVolumetricText: 0
++  m_spriteAnimator: {fileID: 0}
++  m_isInputParsingRequired: 0
++  m_inputSource: 0
++  m_hasFontAssetChanged: 0
++  m_subTextObjects:
++  - {fileID: 0}
++  - {fileID: 0}
++  - {fileID: 0}
++  - {fileID: 0}
++  - {fileID: 0}
++  - {fileID: 0}
++  - {fileID: 0}
++  - {fileID: 0}
++  m_baseMaterial: {fileID: 0}
++  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+ --- !u!1 &3396999519457831479
+ GameObject:
+   m_ObjectHideFlags: 0
+@@ -620,6 +995,7 @@
+   - {fileID: 634819840}
+   - {fileID: 3087512533022371661}
+   - {fileID: 5817634153578459403}
++  - {fileID: 2084884693551989168}
+   m_Father: {fileID: 0}
+   m_RootOrder: 0
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+@@ -646,6 +1022,95 @@
+   ReverseButton: {fileID: 4029605963327158282}
+   TurboButton: {fileID: 6029723904875206160}
+   DebugOn: 0
++--- !u!1 &6270493935448503900
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 3549366441328384834}
++  - component: {fileID: 995388079218592961}
++  - component: {fileID: 8942409911029077371}
++  - component: {fileID: 8739935231900165688}
++  m_Layer: 5
++  m_Name: BackgroundMask
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!224 &3549366441328384834
++RectTransform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 6270493935448503900}
++  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_Children:
++  - {fileID: 8101836935096800377}
++  m_Father: {fileID: 2084884693551989168}
++  m_RootOrder: 0
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++  m_AnchorMin: {x: 0, y: 0}
++  m_AnchorMax: {x: 1, y: 1}
++  m_AnchoredPosition: {x: 0, y: 0}
++  m_SizeDelta: {x: 60, y: 60}
++  m_Pivot: {x: 0.5, y: 0.5}
++--- !u!222 &995388079218592961
++CanvasRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 6270493935448503900}
++  m_CullTransparentMesh: 0
++--- !u!114 &8942409911029077371
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 6270493935448503900}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_Material: {fileID: 0}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_RaycastTarget: 1
++  m_OnCullStateChanged:
++    m_PersistentCalls:
++      m_Calls: []
++    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
++      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
++  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
++  m_Type: 3
++  m_PreserveAspect: 0
++  m_FillCenter: 1
++  m_FillMethod: 4
++  m_FillAmount: 1
++  m_FillClockwise: 1
++  m_FillOrigin: 0
++  m_UseSpriteMesh: 0
++--- !u!114 &8739935231900165688
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 6270493935448503900}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_ShowMaskGraphic: 0
+ --- !u!1 &7431694669156366925
+ GameObject:
+   m_ObjectHideFlags: 0
+Index: Assets/Scripts/Temari/Controller/NetworkMessageReceivedCommand.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/Controller/NetworkMessageReceivedCommand.cs	(revision 2693)
++++ Assets/Scripts/Temari/Controller/NetworkMessageReceivedCommand.cs	(date 1564673544000)
+@@ -3,6 +3,7 @@
+ using strange.extensions.command.impl;
+ using strange.extensions.signal.impl;
+ using Temari.Controller.TemariController;
++using Temari.Definitions;
+ using Temari.Model;
+ using Temari.ServerModule.Model;
+ using Temari.Service.Network.Messages;
+@@ -105,12 +106,22 @@
+                     RadarModel.RemoveVisiblePickup(pickup);
+                     PickupRemovedSignal.Dispatch(pickup);
+ 
+-                    //flag collected
+-                    if (pickup.Type == PickupType.Flag)
++                    switch (pickup.Type)
+                     {
+-                        var player = PlayersModel.GetPlayer(pickupCollectedMessage.PlayerId);
+-                        GameModel.SetFlagOwner(pickupCollectedMessage.PlayerId);
+-                        GameNotificationSignal.Dispatch($"{player.Name} collected the flag!");
++                        case PickupType.Flag:
++                            var player = PlayersModel.GetPlayer(pickupCollectedMessage.PlayerId);
++                            GameModel.SetFlagOwner(pickupCollectedMessage.PlayerId);
++                            GameNotificationSignal.Dispatch($"{player.Name} collected the flag!");
++                            break;
++                        case PickupType.Card:
++                            var data = GameModel.GetPlayerData(pickupCollectedMessage.PlayerId);
++                            data.SetGameCard((ActionCardId)pickup.Value);
++                            break;
++                        case PickupType.Coin:
++                            //TODO victory points to team
++                            break;
++                        default:
++                            throw new ArgumentOutOfRangeException();
+                     }
+ 
+                     break;
+Index: Assets/Scripts/Temari/Model/ServerTower.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/Model/ServerTower.cs	(revision 2693)
++++ Assets/Scripts/Temari/Model/ServerTower.cs	(date 1564662501000)
+@@ -1,6 +1,7 @@
+ using Model;
+ using strange.extensions.signal.impl;
+ using Temari.Controller;
++using Temari.ServerModule.Controller;
+ using Temari.SharedModule.Model;
+ using UnityEngine;
+ using UnityEngine.Experimental.PlayerLoop;
+Index: Assets/Scripts/Temari/ServerModule/Controller/ServerGameController.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/ServerModule/Controller/ServerGameController.cs	(revision 2693)
++++ Assets/Scripts/Temari/ServerModule/Controller/ServerGameController.cs	(date 1564662501000)
+@@ -5,6 +5,7 @@
+ using Temari.Definitions;
+ using Temari.Model;
+ using Temari.ServerModule;
++using Temari.ServerModule.Controller;
+ using Temari.ServerModule.Model;
+ using Temari.SharedModule.Controller;
+ using Temari.SharedModule.Model;
+Index: Assets/Scripts/Temari/Controller/SpawnPickupCommand.cs
+===================================================================
+--- Assets/Scripts/Temari/Controller/SpawnPickupCommand.cs	(revision 2693)
++++ Assets/Scripts/Temari/ServerModule/Controller/SpawnPickupCommand.cs	(date 1564667513000)
+@@ -1,16 +1,15 @@
+ using System.Linq;
+ using Model;
++using SRF;
+ using strange.extensions.command.impl;
+ using strange.extensions.signal.impl;
+ using Temari.Common;
+ using Temari.Model;
+-using Temari.ServerModule;
+-using Temari.ServerModule.Model;
+ using Temari.SharedModule.Model;
+ using Temari.SharedModule.Service.Network.Messages;
+ using UnityEngine;
+ 
+-namespace Temari.Controller
++namespace Temari.ServerModule.Controller
+ {
+     public class SpawnPickupSignal : Signal<PickupType, int, Vector3>
+     {
+@@ -19,13 +18,13 @@
+     
+     public class SpawnPickupCommand : Command
+     {
++        [Inject] public CardInventoryModel CardInventory { get; set; }
+         [Inject] public PickupType PickupType { get; set; }
+         [Inject] public int sourceTeam { get; set; }
+         [Inject] public Vector3 PickupPos { get; set; }
+         
+         [Inject] public IPickupsModel PickupsModel { get; set; }
+         [Inject] public IGameSetup GameSetup { get; set; }
+-        [Inject] public IServerSetup ServerSetup { get; set; }
+         [Inject] public IGameServer GameServer { get; set; }
+         [Inject] public IRadarModel RadarModel { get; set; }
+         [Inject] public ITower Tower { get; set; }
+@@ -34,10 +33,8 @@
+         
+         public override void Execute()
+         {
+-            PickupModel model = null;
+-            Vector3 pickupPos = Vector3.zero;
+-            if (PickupPos != Vector3.zero)
+-                pickupPos = PickupPos;            
++            Vector3 pickupPos = PickupPos;
++            byte pickupValue = 0;
+ 
+             switch (PickupType)
+             {
+@@ -62,7 +59,8 @@
+                             RadarModel.GetSectorNumberForWorldPos(pm.Position) == rsn));                        
+                     }
+ 
+-                    model = new PickupModel(_lastPickupID++, PickupType, 0, pickupPos, sourceTeam);
++                    var cards = CardInventory.GetAllGameCards();
++                    pickupValue = (byte)cards[Random.Range(0, cards.Count - 1)].Id;
+                     break;
+                 
+                 case PickupType.Flag:
+@@ -78,15 +76,13 @@
+                                         GameSetup.SelectedGameMode.FlagSpawnDistanceSpan.y);                        
+                     }
+                     
+-                    model = new PickupModel(_lastPickupID++, PickupType, 0, pickupPos, sourceTeam);
+                     break;
+             }
+ 
+-            if (model != null)
+-            {
+-                PickupsModel.AddPickup(model);         
+-                GameServer.SendToAll(new PickupSpawnedMessage(model));                          
+-            }
++            
++            PickupModel model = new PickupModel(_lastPickupID++, PickupType, pickupValue, pickupPos, sourceTeam);
++            PickupsModel.AddPickup(model);         
++            GameServer.SendToAll(new PickupSpawnedMessage(model)); 
+         }
+     }
+ }
+\ No newline at end of file
+Index: Assets/Scripts/Temari/Controller/SpawnPickupCommand.cs.meta
+===================================================================
+--- Assets/Scripts/Temari/Controller/SpawnPickupCommand.cs.meta	(revision 2693)
++++ Assets/Scripts/Temari/ServerModule/Controller/SpawnPickupCommand.cs.meta	(date 1563973398000)
+Index: Assets/Scripts/Temari/SharedModule/Model/CardInventoryModel.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/SharedModule/Model/CardInventoryModel.cs	(revision 2694)
++++ Assets/Scripts/Temari/SharedModule/Model/CardInventoryModel.cs	(date 1564664337000)
+@@ -1,4 +1,5 @@
+ using System.Collections.Generic;
++using System.Linq;
+ using Temari.Definitions;
+ using Temari.Definitions.ScriptableObjects;
+ using Temari.Model;
+@@ -56,14 +57,7 @@
+         {
+             if (_gameCards == null)
+             {
+-                _gameCards = new List<ActionCardDefinitionSO>();
+-
+-                var allCardDefinitions = ActionCardDefinitions.GetAllDefinitions();
+-                foreach (var actionCardDefinition in allCardDefinitions)
+-                {
+-                    if (actionCardDefinition.CardType == CardType.Game)
+-                        _gameCards.Add(actionCardDefinition);
+-                }
++                _gameCards = ActionCardDefinitions.GetAllDefinitions().Where(c => c.CardType == CardType.Game).ToList();
+             }
+ 
+             return _gameCards;
+Index: Assets/Scripts/Temari/UI/Cards/GameCardButtonMediator.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/UI/Cards/GameCardButtonMediator.cs	(date 1564679160000)
++++ Assets/Scripts/Temari/UI/Cards/GameCardButtonMediator.cs	(date 1564679160000)
+@@ -0,0 +1,54 @@
++using Framewerk.UI;
++using Model;
++using Temari.Controller;
++using Temari.Definitions;
++using Temari.Model;
++
++namespace Temari.UI.Cards
++{
++    public class GameCardButtonMediator : ExtendedMediator
++    {
++        [Inject] public IGameSetup GameSetup { get; set; }
++        [Inject] public IGameModel GameModel { get; set; }
++        
++        [Inject] public PlayCardSignal PlayCardSignal { get; set; }
++        
++        [Inject] public GameCardButtonView View { get; set; }
++        
++        private PlayerGameData _ownerData;
++
++        public override void OnRegister()
++        {
++            AddButtonListener(View.playButton, PlayButtonHandler);
++            
++            _ownerData = GameModel.GetPlayerData(GameSetup.OwnerPlayerId);
++            _ownerData.GameCardChangedSignal.AddListener(GameCardChangedHandler);
++            
++            UpdateView();
++            
++            base.OnRegister();
++        }
++
++        public override void OnRemove()
++        {   
++            _ownerData.GameCardChangedSignal.RemoveListener(GameCardChangedHandler);
++            base.OnRemove();
++        }
++        
++        private void UpdateView()
++        {
++            gameObject.SetActive(_ownerData.CurrentGameCard != ActionCardId.None);    
++            View.SetCardName(_ownerData.CurrentGameCard.ToString());
++        }
++        
++        private void GameCardChangedHandler(int playerId, ActionCardId cardId)
++        {
++            UpdateView();
++        }
++        
++        private void PlayButtonHandler()
++        {
++            PlayCardSignal.Dispatch(_ownerData.CurrentGameCard, GameSetup.OwnerPlayerId);    
++        }
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Temari/UI/Cards/GameCardButtonMediator.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/UI/Cards/GameCardButtonMediator.cs.meta	(date 1564673881000)
++++ Assets/Scripts/Temari/UI/Cards/GameCardButtonMediator.cs.meta	(date 1564673881000)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 60b3a462beaf40d685e7b31a8b09fdf4
++timeCreated: 1564673881
+\ No newline at end of file
+Index: Assets/Scripts/Temari/UI/Cards/GameCardButtonView.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/UI/Cards/GameCardButtonView.cs	(date 1564673868000)
++++ Assets/Scripts/Temari/UI/Cards/GameCardButtonView.cs	(date 1564673868000)
+@@ -0,0 +1,17 @@
++using strange.extensions.mediation.impl;
++using TMPro;
++using UnityEngine.UI;
++
++namespace Temari.UI.Cards
++{
++    public class GameCardButtonView : View
++    {
++        public void SetCardName(string name)
++        {
++            buttonText.text = name;
++        }
++
++        public Button playButton;
++        public TextMeshProUGUI buttonText;    
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Temari/UI/Cards/GameCardButtonView.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/UI/Cards/GameCardButtonView.cs.meta	(date 1564673833000)
++++ Assets/Scripts/Temari/UI/Cards/GameCardButtonView.cs.meta	(date 1564673833000)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: c8850651f5944d0693c67d336b10047b
++timeCreated: 1564673833
+\ No newline at end of file
+Index: Assets/Scripts/Temari/TemariContext.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/TemariContext.cs	(revision 2694)
++++ Assets/Scripts/Temari/TemariContext.cs	(date 1564679418000)
+@@ -211,6 +211,7 @@
+             mediationBinder.Bind<GameNotificationView>().To<GameNotificationMediator>();
+             mediationBinder.Bind<PlayCardInventoryView>().To<ActionCardInventoryMediator>();
+             mediationBinder.Bind<PlayCardListItemView>().To<PlayCardListItemMediator>();
++            mediationBinder.Bind<GameCardButtonView>().To<GameCardButtonMediator>();
+             
+             mediationBinder.Bind<ArenaView>().To<ArenaMediator>();
+             mediationBinder.Bind<VirtualTemariView>().To<VirtualTemariMediator>();

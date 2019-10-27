@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://team.knapnokgames.com/svn/temari_v2/branches" />
+                  <option value="https://team.knapnokgames.com/svn/temari_v2/tags" />
+                  <option value="https://team.knapnokgames.com/svn/temari_v2/twoTemariConnection" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://team.knapnokgames.com/svn/temari_v2/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Assets/Plugins/NapNok/Core">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-essentials/branches" />
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-essentials/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://team.knapnokgames.com/svn/napnok-unity-essentials/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Assets/Plugins/NapNok/DebugLog">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-essentials/branches" />
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-essentials/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://team.knapnokgames.com/svn/napnok-unity-essentials/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Assets/Plugins/NapNok/Events">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-essentials/branches" />
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-essentials/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://team.knapnokgames.com/svn/napnok-unity-essentials/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Assets/Plugins/NapNok/NapLoc">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-naploc/branches" />
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-naploc/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://team.knapnokgames.com/svn/napnok-unity-naploc/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Assets/Plugins/NapNok/ObjectPool">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-essentials/branches" />
+                  <option value="https://team.knapnokgames.com/svn/napnok-unity-essentials/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://team.knapnokgames.com/svn/napnok-unity-essentials/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

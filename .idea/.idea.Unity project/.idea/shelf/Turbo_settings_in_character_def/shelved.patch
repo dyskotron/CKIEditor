@@ -1,0 +1,107 @@
+Index: Assets/Scripts/Temari/Definitions/CharacterDefinitionSO.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Assets/Scripts/Temari/Definitions/CharacterDefinitionSO.cs	(revision 2678)
++++ Assets/Scripts/Temari/Definitions/CharacterDefinitionSO.cs	(date 1564491487000)
+@@ -1,20 +1,18 @@
+ using System;
+ using System.Collections.Generic;
+-using Framewerk.UI.List;
+ using Knapnok.Temari;
+ using Knapnok.Temari.Player;
+ using Temari.UI.Game;
+ using UnityEngine;
+-using UnityEngine.UI;
+ 
+ namespace Temari.Definitions
+ {
+-    public enum eWarriorTeam
++    public enum WarriorTeam
+     {
+-        BD,
+-        BB,
+-        OG,
+-        CD
++        BeijingDragons,
++        BerlinBenemoths,
++        OsakaGhosts,
++        CaliDinos
+     }
+ 
+     [Serializable]
+@@ -22,17 +20,19 @@
+     {
+         public float MaxThrottle => _maxThrottle;
+         public float MaxTurbo => _maxTurbo;
+-        public float TurboDuration => _turboDuration;
++        public float TurboCapacity => _turboCapacity;
+         
+         [SerializeField] [Range(0f, 1f)] private float _maxThrottle;
+         [SerializeField] [Range(0f, 1f)] private float _maxTurbo;
+-        [SerializeField] private float _turboDuration;
++        [SerializeField] private float _turboCapacity;
++        [SerializeField] private float _turboRechargeSpeed;
+ 
+-        public VehicleDeviceParams(float maxThrottle, float maxTurbo, float turboDuration)
++        public VehicleDeviceParams(float maxThrottle, float maxTurbo, float turboCapacity, float turboRechargeSpeed)
+         {
+             _maxThrottle = maxThrottle;
+             _maxTurbo = maxTurbo;
+-            _turboDuration = turboDuration;
++            _turboCapacity = turboCapacity;
++            _turboRechargeSpeed = turboRechargeSpeed;
+         }
+     }
+ 
+@@ -87,7 +87,7 @@
+         public float EnergyNormalized => (float)_energy / MAX_STAT_VALUE;
+         public float HealthNormalized => (float)_health / MAX_STAT_VALUE;
+         
+-        public eWarriorTeam Team => _team;
++        public WarriorTeam Team => _team;
+         public GameObject TrailsVFX => _trails;
+         public WeaponVFXView WeaponVfxView => _weaponVfxView;
+ 
+@@ -100,23 +100,29 @@
+             return null;
+         }
+         
++        [Header("Name & Team")]
+         [SerializeField] private string _displayName = "";
+-        [SerializeField] private KaijuPrefabByColor[] _playerColorPrefabs; 
++        [SerializeField] private WarriorTeam _team;
+         
+-        [SerializeField] [Range(MIN_STAT_VALUE, MAX_STAT_VALUE)] private int _power = 1000;
+-        [SerializeField] [Range(MIN_STAT_VALUE, MAX_STAT_VALUE)] private int _agility = 1000;
+-        [SerializeField] [Range(MIN_STAT_VALUE, MAX_STAT_VALUE)] private int _energy = 1000;
+-        [SerializeField] [Range(MIN_STAT_VALUE, MAX_STAT_VALUE)] private int _health = 1000;
++        [Header("Character properties")]
++        [SerializeField] [Range(MIN_STAT_VALUE, MAX_STAT_VALUE)] private int _health = MAX_STAT_VALUE;
++        [SerializeField] [Range(MIN_STAT_VALUE, MAX_STAT_VALUE)] private int _power = MAX_STAT_VALUE;
++        [SerializeField] [Range(MIN_STAT_VALUE, MAX_STAT_VALUE)] private int _agility = MAX_STAT_VALUE;
++        [SerializeField] [Range(MIN_STAT_VALUE, MAX_STAT_VALUE)] private int _energy = MAX_STAT_VALUE;
+         
+-        [SerializeField] private eWarriorTeam _team;
+-           
++        [Header("Chariot")]
+         [SerializeField] private VehicleDeviceParams _vehliceParams;
+-
++        
++        [Header("Weapon")]
+         [SerializeField] private WeaponDefinition _weaponDef;
+-        
+-        [SerializeField] private GameObject _trails;
+         [SerializeField] private WeaponVFXView _weaponVfxView;
+-
++        
++        [Header("VFX")]
++        [SerializeField] private GameObject _trails;
++        
++        [Header("Deprecated")]
++        [SerializeField] private KaijuPrefabByColor[] _playerColorPrefabs; 
++        
+         private Dictionary<CharacterColorID, KaijuBehaviour> _kaijuPrefabByPlayerColor;
+         private string _characterID;
+ 

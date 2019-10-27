@@ -1,0 +1,2975 @@
+{
+  "instrument_data": {
+    "ABase99": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        },
+        "slot_7": {
+          "MIDI_CC": 100,
+          "label": "BDTune"
+        },
+        "slot_8": {
+          "MIDI_CC": 101,
+          "label": "BDPitc"
+        },
+        "slot_9": {
+          "MIDI_CC": 102,
+          "label": "BDecay"
+        },
+        "slot_10": {
+          "MIDI_CC": 103,
+          "label": "BDHarm"
+        },
+        "slot_11": {
+          "MIDI_CC": 104,
+          "label": "BDPuls"
+        },
+        "slot_12": {
+          "MIDI_CC": 105,
+          "label": "BDNois"
+        },
+        "slot_13": {
+          "MIDI_CC": 106,
+          "label": "BDAtta"
+        },
+        "slot_14": {
+          "MIDI_CC": 107,
+          "label": "BDEQ"
+        },
+        "slot_15": {
+          "MIDI_CC": 117,
+          "label": "BDLev"
+        },
+        "slot_16": {
+          "MIDI_CC": 111,
+          "label": "Sdetun"
+        },
+        "slot_17": {
+          "MIDI_CC": 110,
+          "label": "SDecay"
+        },
+        "slot_18": {
+          "MIDI_CC": 108,
+          "label": "STune"
+        },
+        "slot_19": {
+          "MIDI_CC": 112,
+          "label": "SNsTun"
+        },
+        "slot_20": {
+          "MIDI_CC": 109,
+          "label": "SSnap"
+        },
+        "slot_21": {
+          "MIDI_CC": 118,
+          "label": "SLevel"
+        },
+        "slot_22": {
+          "MIDI_CC": 12,
+          "label": "LTTun"
+        },
+        "slot_23": {
+          "MIDI_CC": 13,
+          "label": "LTDec"
+        },
+        "slot_24": {
+          "MIDI_CC": 14,
+          "label": "LTLev"
+        },
+        "slot_25": {
+          "MIDI_CC": 15,
+          "label": "HTTun"
+        },
+        "slot_26": {
+          "MIDI_CC": 16,
+          "label": "HTDec"
+        },
+        "slot_27": {
+          "MIDI_CC": 17,
+          "label": "HTLev"
+        },
+        "slot_28": {
+          "MIDI_CC": 18,
+          "label": "HtTune"
+        },
+        "slot_29": {
+          "MIDI_CC": 19,
+          "label": "CHAtt"
+        },
+        "slot_30": {
+          "MIDI_CC": 20,
+          "label": "CHPeak"
+        },
+        "slot_31": {
+          "MIDI_CC": 21,
+          "label": "CHDec"
+        },
+        "slot_32": {
+          "MIDI_CC": 22,
+          "label": "OHAtt"
+        },
+        "slot_33": {
+          "MIDI_CC": 23,
+          "label": "OHPeak"
+        },
+        "slot_34": {
+          "MIDI_CC": 24,
+          "label": "OHDec"
+        },
+        "slot_35": {
+          "MIDI_CC": 25,
+          "label": "HHLev"
+        },
+        "slot_36": {
+          "MIDI_CC": 59,
+          "label": "HPF"
+        },
+        "slot_37": {
+          "MIDI_CC": 60,
+          "label": "LPF"
+        },
+        "slot_38": {
+          "MIDI_CC": 61,
+          "label": "RES"
+        },
+        "slot_39": {
+          "MIDI_CC": 26,
+          "label": "CLTune"
+        },
+        "slot_40": {
+          "MIDI_CC": 27,
+          "label": "CLAtt"
+        },
+        "slot_41": {
+          "MIDI_CC": 28,
+          "label": "CLPeak"
+        },
+        "slot_42": {
+          "MIDI_CC": 29,
+          "label": "CLDec"
+        },
+        "slot_43": {
+          "MIDI_CC": 44,
+          "label": "RIMTun"
+        },
+        "slot_44": {
+          "MIDI_CC": 46,
+          "label": "RIMPk"
+        },
+        "slot_45": {
+          "MIDI_CC": 47,
+          "label": "RIMDec"
+        },
+        "slot_46": {
+          "MIDI_CC": 48,
+          "label": "RIMLev"
+        },
+        "slot_47": {
+          "MIDI_CC": 49,
+          "label": "CRTun"
+        },
+        "slot_48": {
+          "MIDI_CC": 50,
+          "label": "CRAtt"
+        },
+        "slot_49": {
+          "MIDI_CC": 51,
+          "label": "CRPk"
+        },
+        "slot_50": {
+          "MIDI_CC": 52,
+          "label": "CRDec"
+        },
+        "slot_51": {
+          "MIDI_CC": 53,
+          "label": "CrLev"
+        },
+        "slot_52": {
+          "MIDI_CC": 54,
+          "label": "RDTun"
+        },
+        "slot_53": {
+          "MIDI_CC": 55,
+          "label": "RDAtt"
+        },
+        "slot_54": {
+          "MIDI_CC": 56,
+          "label": "RDPk"
+        },
+        "slot_55": {
+          "MIDI_CC": 57,
+          "label": "RDDec"
+        },
+        "slot_56": {
+          "MIDI_CC": 58,
+          "label": "RDLev"
+        },
+        "slot_57": {
+          "MIDI_CC": 75,
+          "label": "LFO1wv"
+        },
+        "slot_58": {
+          "MIDI_CC": 76,
+          "label": "LFO1de"
+        },
+        "slot_59": {
+          "MIDI_CC": 77,
+          "label": "LFO1in"
+        },
+        "slot_60": {
+          "MIDI_CC": 78,
+          "label": "LFO1ra"
+        },
+        "slot_61": {
+          "MIDI_CC": 79,
+          "label": "LFO2wv"
+        },
+        "slot_62": {
+          "MIDI_CC": 80,
+          "label": "LFO2de"
+        },
+        "slot_63": {
+          "MIDI_CC": 81,
+          "label": "LFO2in"
+        },
+        "slot_64": {
+          "MIDI_CC": 82,
+          "label": "LFO2ra"
+        }
+      },
+      "CC_defs": {
+        "CC_12": {
+          "label": "LTTun"
+        },
+        "CC_13": {
+          "label": "LTDec"
+        },
+        "CC_14": {
+          "label": "LTLev"
+        },
+        "CC_15": {
+          "label": "HTTun"
+        },
+        "CC_16": {
+          "label": "HTDec"
+        },
+        "CC_17": {
+          "label": "HTLev"
+        },
+        "CC_18": {
+          "label": "HtTune"
+        },
+        "CC_19": {
+          "label": "CHAtt"
+        },
+        "CC_20": {
+          "label": "CHPeak"
+        },
+        "CC_21": {
+          "label": "CHDec"
+        },
+        "CC_22": {
+          "label": "OHAtt"
+        },
+        "CC_23": {
+          "label": "OHPeak"
+        },
+        "CC_24": {
+          "label": "OHDec"
+        },
+        "CC_25": {
+          "label": "HHLev"
+        },
+        "CC_26": {
+          "label": "CLTune"
+        },
+        "CC_27": {
+          "label": "CLAtt"
+        },
+        "CC_28": {
+          "label": "CLPeak"
+        },
+        "CC_29": {
+          "label": "CLDec"
+        },
+        "CC_30": {
+          "label": "CLLev"
+        },
+        "CC_44": {
+          "label": "RIMTun"
+        },
+        "CC_45": {
+          "label": "RIMAtt"
+        },
+        "CC_46": {
+          "label": "RIMPk"
+        },
+        "CC_47": {
+          "label": "RIMDec"
+        },
+        "CC_48": {
+          "label": "RIMLev"
+        },
+        "CC_49": {
+          "label": "CRTun"
+        },
+        "CC_50": {
+          "label": "CRAtt"
+        },
+        "CC_51": {
+          "label": "CRPk"
+        },
+        "CC_52": {
+          "label": "CRDec"
+        },
+        "CC_53": {
+          "label": "CrLev"
+        },
+        "CC_54": {
+          "label": "RDTun"
+        },
+        "CC_55": {
+          "label": "RDAtt"
+        },
+        "CC_56": {
+          "label": "RDPk"
+        },
+        "CC_57": {
+          "label": "RDDec"
+        },
+        "CC_58": {
+          "label": "RDLev"
+        },
+        "CC_59": {
+          "label": "HPF"
+        },
+        "CC_60": {
+          "label": "LPF"
+        },
+        "CC_61": {
+          "label": "RES"
+        },
+        "CC_75": {
+          "label": "LFO1wv"
+        },
+        "CC_76": {
+          "label": "LFO1de"
+        },
+        "CC_77": {
+          "label": "LFO1in"
+        },
+        "CC_78": {
+          "label": "LFO1ra"
+        },
+        "CC_79": {
+          "label": "LFO2wv"
+        },
+        "CC_80": {
+          "label": "LFO2de"
+        },
+        "CC_81": {
+          "label": "LFO2in"
+        },
+        "CC_82": {
+          "label": "LFO2ra"
+        },
+        "CC_100": {
+          "label": "BDTune"
+        },
+        "CC_101": {
+          "label": "BDPitc"
+        },
+        "CC_102": {
+          "label": "BDecay"
+        },
+        "CC_103": {
+          "label": "BDHarm"
+        },
+        "CC_104": {
+          "label": "BDPuls"
+        },
+        "CC_105": {
+          "label": "BDNois"
+        },
+        "CC_106": {
+          "label": "BDAtta"
+        },
+        "CC_107": {
+          "label": "BDEQ"
+        },
+        "CC_108": {
+          "label": "STune"
+        },
+        "CC_109": {
+          "label": "SSnap"
+        },
+        "CC_110": {
+          "label": "SDecay"
+        },
+        "CC_111": {
+          "label": "Sdetun"
+        },
+        "CC_112": {
+          "label": "SNsTun"
+        },
+        "CC_117": {
+          "label": "BDLev"
+        },
+        "CC_118": {
+          "label": "SLevel"
+        }
+      },
+      "row_defs": {
+        "C 3": {
+          "label": "BD ",
+          "always_show": true
+        },
+        "C#3": {
+          "label": "RS ",
+          "always_show": true
+        },
+        "D#3": {
+          "label": "CP ",
+          "always_show": true
+        },
+        "E 3": {
+          "label": "SN ",
+          "always_show": true
+        },
+        "F 3": {
+          "label": "LT ",
+          "always_show": true
+        },
+        "F#3": {
+          "label": "CH ",
+          "always_show": true
+        },
+        "G 3": {
+          "label": "HT ",
+          "always_show": true
+        },
+        "G#3": {
+          "label": "PH ",
+          "always_show": true
+        },
+        "A#3": {
+          "label": "OH ",
+          "always_show": true
+        },
+        "C#4": {
+          "label": "CR ",
+          "always_show": true
+        },
+        "E 4": {
+          "label": "RD ",
+          "always_show": true
+        }
+      }
+    },
+    "ABaseBD": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "MIDI_CC": 100,
+          "label": "Tune"
+        },
+        "slot_2": {
+          "MIDI_CC": 101,
+          "label": "Pitch"
+        },
+        "slot_3": {
+          "MIDI_CC": 106,
+          "label": "Attack"
+        },
+        "slot_4": {
+          "MIDI_CC": 102,
+          "label": "Decay"
+        },
+        "slot_5": {
+          "MIDI_CC": 103,
+          "label": "Harm"
+        },
+        "slot_6": {
+          "MIDI_CC": 117,
+          "label": "Level"
+        },
+        "slot_7": {
+          "MIDI_CC": 104,
+          "label": "Pulse"
+        },
+        "slot_8": {
+          "MIDI_CC": 105,
+          "label": "Noise"
+        },
+        "slot_9": {
+          "MIDI_CC": 107,
+          "label": "EQ"
+        }
+      },
+      "CC_defs": {
+        "CC_100": {
+          "label": "Tune"
+        },
+        "CC_101": {
+          "label": "Pitch"
+        },
+        "CC_102": {
+          "label": "Decay"
+        },
+        "CC_103": {
+          "label": "Harm"
+        },
+        "CC_104": {
+          "label": "Pulse"
+        },
+        "CC_105": {
+          "label": "Noise"
+        },
+        "CC_106": {
+          "label": "Attack"
+        },
+        "CC_107": {
+          "label": "EQ"
+        },
+        "CC_117": {
+          "label": "Level"
+        }
+      },
+      "row_defs": {
+        "C 3": {
+          "label": "BD ",
+          "always_show": true
+        }
+      }
+    },
+    "ABaseCP": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "D#3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "MIDI_CC": 26,
+          "label": "Tune"
+        },
+        "slot_2": {
+          "MIDI_CC": 27,
+          "label": "Attack"
+        },
+        "slot_3": {
+          "MIDI_CC": 28,
+          "label": "Peak"
+        },
+        "slot_4": {
+          "MIDI_CC": 29,
+          "label": "Decay"
+        },
+        "slot_5": {
+          "MIDI_CC": 30,
+          "label": "Level"
+        },
+        "slot_6": {
+          "MIDI_CC": 62,
+          "label": "Smpl8"
+        }
+      },
+      "CC_defs": {
+        "CC_26": {
+          "label": "Tune"
+        },
+        "CC_27": {
+          "label": "Attack"
+        },
+        "CC_28": {
+          "label": "Peak"
+        },
+        "CC_29": {
+          "label": "Decay"
+        },
+        "CC_30": {
+          "label": "Level"
+        },
+        "CC_62": {
+          "label": "Smpl8"
+        }
+      },
+      "row_defs": {
+        "D#3": {
+          "label": "CP ",
+          "always_show": true
+        }
+      }
+    },
+    "ABaseCR": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "C#4",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "MIDI_CC": 49,
+          "label": "Tune"
+        },
+        "slot_2": {
+          "MIDI_CC": 50,
+          "label": "Attack"
+        },
+        "slot_3": {
+          "MIDI_CC": 51,
+          "label": "Peak"
+        },
+        "slot_4": {
+          "MIDI_CC": 52,
+          "label": "Decay"
+        },
+        "slot_5": {
+          "MIDI_CC": 53,
+          "label": "Level"
+        },
+        "slot_6": {
+          "MIDI_CC": 62,
+          "label": "Smpl12"
+        }
+      },
+      "CC_defs": {
+        "CC_49": {
+          "label": "Tune"
+        },
+        "CC_50": {
+          "label": "Attack"
+        },
+        "CC_51": {
+          "label": "Peak"
+        },
+        "CC_52": {
+          "label": "Decay"
+        },
+        "CC_53": {
+          "label": "Level"
+        },
+        "CC_62": {
+          "label": "Smpl12"
+        }
+      },
+      "row_defs": {
+        "C#4": {
+          "label": "CR ",
+          "always_show": true
+        }
+      }
+    },
+    "ABaseHH": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "F#3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "MIDI_CC": 19,
+          "label": "CHAtt"
+        },
+        "slot_2": {
+          "MIDI_CC": 20,
+          "label": "CHPeak"
+        },
+        "slot_3": {
+          "MIDI_CC": 21,
+          "label": "CHDec"
+        },
+        "slot_4": {
+          "MIDI_CC": 22,
+          "label": "OHAtt"
+        },
+        "slot_5": {
+          "MIDI_CC": 23,
+          "label": "OHPeak"
+        },
+        "slot_6": {
+          "MIDI_CC": 24,
+          "label": "OHDec"
+        },
+        "slot_7": {
+          "MIDI_CC": 18,
+          "label": "Tune"
+        },
+        "slot_8": {
+          "MIDI_CC": 25,
+          "label": "Level"
+        },
+        "slot_9": {
+          "MIDI_CC": 59,
+          "label": "HPF"
+        },
+        "slot_10": {
+          "MIDI_CC": 60,
+          "label": "LPF"
+        },
+        "slot_11": {
+          "MIDI_CC": 61,
+          "label": "RES"
+        },
+        "slot_12": {
+          "MIDI_CC": 62,
+          "label": "Smpl0"
+        }
+      },
+      "CC_defs": {
+        "CC_18": {
+          "label": "Tune"
+        },
+        "CC_19": {
+          "label": "CHAtt"
+        },
+        "CC_20": {
+          "label": "CHPeak"
+        },
+        "CC_21": {
+          "label": "CHDec"
+        },
+        "CC_22": {
+          "label": "OHAtt"
+        },
+        "CC_23": {
+          "label": "OHPeak"
+        },
+        "CC_24": {
+          "label": "OHDec"
+        },
+        "CC_25": {
+          "label": "Level"
+        },
+        "CC_59": {
+          "label": "HPF"
+        },
+        "CC_60": {
+          "label": "LPF"
+        },
+        "CC_61": {
+          "label": "RES"
+        },
+        "CC_62": {
+          "label": "Smpl0"
+        }
+      },
+      "row_defs": {
+        "F#3": {
+          "label": "CH ",
+          "always_show": true
+        },
+        "G#3": {
+          "label": "PH ",
+          "always_show": true
+        },
+        "A#3": {
+          "label": "OH ",
+          "always_show": true
+        }
+      }
+    },
+    "ABaseRD": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "E 4",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "MIDI_CC": 54,
+          "label": "Tune"
+        },
+        "slot_2": {
+          "MIDI_CC": 55,
+          "label": "Attack"
+        },
+        "slot_3": {
+          "MIDI_CC": 56,
+          "label": "Peak"
+        },
+        "slot_4": {
+          "MIDI_CC": 57,
+          "label": "Decay"
+        },
+        "slot_5": {
+          "MIDI_CC": 58,
+          "label": "Level"
+        },
+        "slot_6": {
+          "MIDI_CC": 62,
+          "label": "Smpl16"
+        }
+      },
+      "CC_defs": {
+        "CC_54": {
+          "label": "Tune"
+        },
+        "CC_55": {
+          "label": "Attack"
+        },
+        "CC_56": {
+          "label": "Peak"
+        },
+        "CC_57": {
+          "label": "Decay"
+        },
+        "CC_58": {
+          "label": "Level"
+        },
+        "CC_62": {
+          "label": "Smpl16"
+        }
+      },
+      "row_defs": {
+        "E 4": {
+          "label": "RD ",
+          "always_show": true
+        }
+      }
+    },
+    "ABaseRS": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "C#3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "MIDI_CC": 44,
+          "label": "Tune"
+        },
+        "slot_2": {
+          "MIDI_CC": 45,
+          "label": "Attack"
+        },
+        "slot_3": {
+          "MIDI_CC": 46,
+          "label": "Peak"
+        },
+        "slot_4": {
+          "MIDI_CC": 47,
+          "label": "Decay"
+        },
+        "slot_5": {
+          "MIDI_CC": 48,
+          "label": "Level"
+        },
+        "slot_6": {
+          "MIDI_CC": 62,
+          "label": "Smpl4"
+        }
+      },
+      "CC_defs": {
+        "CC_44": {
+          "label": "Tune"
+        },
+        "CC_45": {
+          "label": "Attack"
+        },
+        "CC_46": {
+          "label": "Peak"
+        },
+        "CC_47": {
+          "label": "Decay"
+        },
+        "CC_48": {
+          "label": "Level"
+        },
+        "CC_62": {
+          "label": "Smpl4"
+        }
+      },
+      "row_defs": {
+        "C#3": {
+          "label": "RS ",
+          "always_show": true
+        }
+      }
+    },
+    "ABaseSD": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "E 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "MIDI_CC": 108,
+          "label": "Tune"
+        },
+        "slot_2": {
+          "MIDI_CC": 111,
+          "label": "Detune"
+        },
+        "slot_3": {
+          "MIDI_CC": 110,
+          "label": "Decay"
+        },
+        "slot_4": {
+          "MIDI_CC": 112,
+          "label": "NoisTn"
+        },
+        "slot_5": {
+          "MIDI_CC": 109,
+          "label": "Snap"
+        },
+        "slot_6": {
+          "MIDI_CC": 118,
+          "label": "Level"
+        }
+      },
+      "CC_defs": {
+        "CC_108": {
+          "label": "Tune"
+        },
+        "CC_109": {
+          "label": "Snap"
+        },
+        "CC_110": {
+          "label": "Decay"
+        },
+        "CC_111": {
+          "label": "Detune"
+        },
+        "CC_112": {
+          "label": "NoisTn"
+        },
+        "CC_118": {
+          "label": "Level"
+        }
+      },
+      "row_defs": {
+        "E 3": {
+          "label": "SD ",
+          "always_show": true
+        }
+      }
+    },
+    "ABaseTT": {
+      "midi_port": 1,
+      "midi_chan": 12,
+      "default_note": "F 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "no_xpose": true,
+      "no_fts": true,
+      "track_values": {
+        "slot_1": {
+          "MIDI_CC": 12,
+          "label": "LTTun"
+        },
+        "slot_2": {
+          "MIDI_CC": 13,
+          "label": "LTDec"
+        },
+        "slot_3": {
+          "MIDI_CC": 14,
+          "label": "LTLev"
+        },
+        "slot_7": {
+          "MIDI_CC": 15,
+          "label": "HTTun"
+        },
+        "slot_8": {
+          "MIDI_CC": 16,
+          "label": "HTDec"
+        },
+        "slot_9": {
+          "MIDI_CC": 17,
+          "label": "HTLev"
+        },
+        "slot_10": {
+          "MIDI_CC": 18,
+          "label": "HtTune"
+        },
+        "slot_17": {
+          "track_control": "note%"
+        }
+      },
+      "CC_defs": {
+        "CC_12": {
+          "label": "LTTun"
+        },
+        "CC_13": {
+          "label": "LTDec"
+        },
+        "CC_14": {
+          "label": "LTLev"
+        },
+        "CC_15": {
+          "label": "HTTun"
+        },
+        "CC_16": {
+          "label": "HTDec"
+        },
+        "CC_17": {
+          "label": "HTLev"
+        },
+        "CC_18": {
+          "label": "HtTune"
+        }
+      },
+      "row_defs": {
+        "F 3": {
+          "label": "LT ",
+          "always_show": true
+        },
+        "G 3": {
+          "label": "HT ",
+          "always_show": true
+        }
+      }
+    },
+    "MKS50": {
+      "midi_port": 5,
+      "midi_chan": 11,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        }
+      }
+    },
+    "MWaveII": {
+      "midi_port": 4,
+      "midi_chan": 5,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        },
+        "slot_7": {
+          "MIDI_CC": 33,
+          "label": "Os1Oct"
+        },
+        "slot_8": {
+          "MIDI_CC": 34,
+          "label": "Os1Sem"
+        },
+        "slot_9": {
+          "MIDI_CC": 35,
+          "label": "Os1Dtn"
+        },
+        "slot_10": {
+          "MIDI_CC": 36,
+          "label": "Os1Pbr"
+        },
+        "slot_11": {
+          "MIDI_CC": 37,
+          "label": "Os1Key"
+        },
+        "slot_12": {
+          "MIDI_CC": 13,
+          "label": "FMamt"
+        },
+        "slot_13": {
+          "MIDI_CC": 38,
+          "label": "Os2Oct"
+        },
+        "slot_14": {
+          "MIDI_CC": 39,
+          "label": "Os2Sem"
+        },
+        "slot_15": {
+          "MIDI_CC": 40,
+          "label": "Os2Dtn"
+        },
+        "slot_16": {
+          "MIDI_CC": 42,
+          "label": "Os2Pbr"
+        },
+        "slot_17": {
+          "MIDI_CC": 43,
+          "label": "Os2Key"
+        },
+        "slot_18": {
+          "MIDI_CC": 41,
+          "label": "Os2Sc"
+        },
+        "slot_19": {
+          "MIDI_CC": 44,
+          "label": "Os2Lnk"
+        },
+        "slot_21": {
+          "MIDI_CC": 45,
+          "label": "Wv1Lvl"
+        },
+        "slot_22": {
+          "MIDI_CC": 46,
+          "label": "Wv2Lvl"
+        },
+        "slot_23": {
+          "MIDI_CC": 47,
+          "label": "Ringmd"
+        },
+        "slot_24": {
+          "MIDI_CC": 48,
+          "label": "Nois"
+        },
+        "slot_25": {
+          "MIDI_CC": 71,
+          "label": "W1Strt"
+        },
+        "slot_26": {
+          "MIDI_CC": 72,
+          "label": "W1Phse"
+        },
+        "slot_27": {
+          "MIDI_CC": 73,
+          "label": "W1EnvA"
+        },
+        "slot_28": {
+          "MIDI_CC": 74,
+          "label": "W1EnvV"
+        },
+        "slot_29": {
+          "MIDI_CC": 75,
+          "label": "W1KeyT"
+        },
+        "slot_30": {
+          "MIDI_CC": 76,
+          "label": "W1Lmt"
+        },
+        "slot_31": {
+          "MIDI_CC": 77,
+          "label": "W2Strt"
+        },
+        "slot_32": {
+          "MIDI_CC": 78,
+          "label": "W2Phse"
+        },
+        "slot_33": {
+          "MIDI_CC": 79,
+          "label": "W2EnvA"
+        },
+        "slot_34": {
+          "MIDI_CC": 80,
+          "label": "W2EnvV"
+        },
+        "slot_35": {
+          "MIDI_CC": 81,
+          "label": "W2KeyT"
+        },
+        "slot_36": {
+          "MIDI_CC": 82,
+          "label": "W2Lmt"
+        },
+        "slot_37": {
+          "MIDI_CC": 83,
+          "label": "W2Link"
+        },
+        "slot_40": {
+          "MIDI_CC": 70,
+          "label": "Wavtbl"
+        },
+        "slot_43": {
+          "MIDI_CC": 50,
+          "label": "F1CutO"
+        },
+        "slot_44": {
+          "MIDI_CC": 56,
+          "label": "F1Res"
+        },
+        "slot_45": {
+          "MIDI_CC": 54,
+          "label": "F1Type"
+        },
+        "slot_46": {
+          "MIDI_CC": 52,
+          "label": "F1EnvA"
+        },
+        "slot_47": {
+          "MIDI_CC": 53,
+          "label": "F1VelA"
+        },
+        "slot_48": {
+          "MIDI_CC": 51,
+          "label": "F1KeyT"
+        },
+        "slot_49": {
+          "MIDI_CC": 60,
+          "label": "F2CutO"
+        },
+        "slot_50": {
+          "MIDI_CC": 61,
+          "label": "F2Type"
+        },
+        "slot_51": {
+          "MIDI_CC": 62,
+          "label": "F2KeyT"
+        },
+        "slot_52": {
+          "MIDI_CC": 57,
+          "label": "AmpVol"
+        },
+        "slot_53": {
+          "MIDI_CC": 58,
+          "label": "AmpEnV"
+        },
+        "slot_54": {
+          "MIDI_CC": 55,
+          "label": "AmpKy"
+        },
+        "slot_55": {
+          "MIDI_CC": 14,
+          "label": "FEAttk"
+        },
+        "slot_56": {
+          "MIDI_CC": 15,
+          "label": "FEDcay"
+        },
+        "slot_57": {
+          "MIDI_CC": 16,
+          "label": "FESust"
+        },
+        "slot_58": {
+          "MIDI_CC": 17,
+          "label": "FERlse"
+        },
+        "slot_60": {
+          "MIDI_CC": 29,
+          "label": "FETrg"
+        },
+        "slot_61": {
+          "MIDI_CC": 18,
+          "label": "AEAttk"
+        },
+        "slot_62": {
+          "MIDI_CC": 19,
+          "label": "AEDcay"
+        },
+        "slot_63": {
+          "MIDI_CC": 20,
+          "label": "AESust"
+        },
+        "slot_64": {
+          "MIDI_CC": 21,
+          "label": "AERlse"
+        },
+        "slot_66": {
+          "MIDI_CC": 31,
+          "label": "AETrg"
+        },
+        "slot_67": {
+          "MIDI_CC": 24,
+          "label": "LFO1rt"
+        },
+        "slot_68": {
+          "MIDI_CC": 25,
+          "label": "LFO1sh"
+        },
+        "slot_69": {
+          "MIDI_CC": 30,
+          "label": "LFO1dl"
+        },
+        "slot_70": {
+          "MIDI_CC": 112,
+          "label": "LFO1sc"
+        },
+        "slot_71": {
+          "MIDI_CC": 113,
+          "label": "LFO1sm"
+        },
+        "slot_72": {
+          "MIDI_CC": 114,
+          "label": "LFO1h"
+        },
+        "slot_73": {
+          "MIDI_CC": 26,
+          "label": "LFO2rt"
+        },
+        "slot_74": {
+          "MIDI_CC": 28,
+          "label": "LFO2sh"
+        },
+        "slot_75": {
+          "MIDI_CC": 27,
+          "label": "LFO2dl"
+        },
+        "slot_76": {
+          "MIDI_CC": 115,
+          "label": "LFO2sc"
+        },
+        "slot_77": {
+          "MIDI_CC": 116,
+          "label": "LFO2sm"
+        },
+        "slot_78": {
+          "MIDI_CC": 117,
+          "label": "LFO2h"
+        },
+        "slot_79": {
+          "MIDI_CC": 118,
+          "label": "LFO2ph"
+        },
+        "slot_81": {
+          "MIDI_CC": 94,
+          "label": "MOD1"
+        },
+        "slot_82": {
+          "MIDI_CC": 95,
+          "label": "MOD2"
+        },
+        "slot_85": {
+          "MIDI_CC": 65,
+          "label": "GldAct"
+        },
+        "slot_86": {
+          "MIDI_CC": 5,
+          "label": "GldTme"
+        },
+        "slot_87": {
+          "MIDI_CC": 22,
+          "label": "GldTyp"
+        },
+        "slot_88": {
+          "MIDI_CC": 23,
+          "label": "GldMde"
+        },
+        "slot_89": {
+          "MIDI_CC": 12,
+          "label": "Chorus"
+        },
+        "slot_90": {
+          "MIDI_CC": 64,
+          "label": "Sustan"
+        },
+        "slot_91": {
+          "MIDI_CC": 85,
+          "label": "FrETm1"
+        },
+        "slot_92": {
+          "MIDI_CC": 86,
+          "label": "FrELv1"
+        },
+        "slot_93": {
+          "MIDI_CC": 87,
+          "label": "FrETm2"
+        },
+        "slot_94": {
+          "MIDI_CC": 88,
+          "label": "FrELv2"
+        },
+        "slot_95": {
+          "MIDI_CC": 89,
+          "label": "FrETm3"
+        },
+        "slot_96": {
+          "MIDI_CC": 90,
+          "label": "FrEL3"
+        },
+        "slot_97": {
+          "MIDI_CC": 91,
+          "label": "FrERsT"
+        },
+        "slot_98": {
+          "MIDI_CC": 92,
+          "label": "FrERsL"
+        },
+        "slot_100": {
+          "MIDI_CC": 93,
+          "label": "FrETrg"
+        },
+        "slot_101": {
+          "MIDI_CC": 107,
+          "label": "ARPptn"
+        },
+        "slot_102": {
+          "MIDI_CC": 106,
+          "label": "ARPdr"
+        },
+        "slot_103": {
+          "MIDI_CC": 102,
+          "label": "ARPact"
+        },
+        "slot_104": {
+          "MIDI_CC": 105,
+          "label": "ARPtmp"
+        },
+        "slot_105": {
+          "MIDI_CC": 104,
+          "label": "ARPclk"
+        },
+        "slot_106": {
+          "MIDI_CC": 103,
+          "label": "ARPrng"
+        },
+        "slot_109": {
+          "MIDI_CC": 108,
+          "label": "ARPntO"
+        },
+        "slot_110": {
+          "MIDI_CC": 109,
+          "label": "ARPvel"
+        },
+        "slot_111": {
+          "MIDI_CC": 110,
+          "label": "ARPrst"
+        },
+        "slot_112": {
+          "MIDI_CC": 111,
+          "label": "ARPlng"
+        },
+        "slot_115": {
+          "MIDI_CC": 96,
+          "label": "CTRL-W"
+        },
+        "slot_116": {
+          "MIDI_CC": 97,
+          "label": "CTRL-X"
+        },
+        "slot_117": {
+          "MIDI_CC": 98,
+          "label": "CTRL-Y"
+        },
+        "slot_118": {
+          "MIDI_CC": 99,
+          "label": "CTRL-Z"
+        }
+      },
+      "CC_defs": {
+        "CC_5": {
+          "label": "GldTme"
+        },
+        "CC_12": {
+          "label": "Chorus"
+        },
+        "CC_13": {
+          "label": "FMamt"
+        },
+        "CC_14": {
+          "label": "FEAttk"
+        },
+        "CC_15": {
+          "label": "FEDcay"
+        },
+        "CC_16": {
+          "label": "FESust"
+        },
+        "CC_17": {
+          "label": "FERlse"
+        },
+        "CC_18": {
+          "label": "AEAttk"
+        },
+        "CC_19": {
+          "label": "AEDcay"
+        },
+        "CC_20": {
+          "label": "AESust"
+        },
+        "CC_21": {
+          "label": "AERlse"
+        },
+        "CC_22": {
+          "label": "GldTyp"
+        },
+        "CC_23": {
+          "label": "GldMde"
+        },
+        "CC_24": {
+          "label": "LFO1rt"
+        },
+        "CC_25": {
+          "label": "LFO1sh"
+        },
+        "CC_26": {
+          "label": "LFO2rt"
+        },
+        "CC_27": {
+          "label": "LFO2dl"
+        },
+        "CC_28": {
+          "label": "LFO2sh"
+        },
+        "CC_29": {
+          "label": "FETrg"
+        },
+        "CC_30": {
+          "label": "LFO1dl"
+        },
+        "CC_31": {
+          "label": "AETrg"
+        },
+        "CC_33": {
+          "label": "Os1Oct"
+        },
+        "CC_34": {
+          "label": "Os1Sem"
+        },
+        "CC_35": {
+          "label": "Os1Dtn"
+        },
+        "CC_36": {
+          "label": "Os1Pbr"
+        },
+        "CC_37": {
+          "label": "Os1Key"
+        },
+        "CC_38": {
+          "label": "Os2Oct"
+        },
+        "CC_39": {
+          "label": "Os2Sem"
+        },
+        "CC_40": {
+          "label": "Os2Dtn"
+        },
+        "CC_41": {
+          "label": "Os2Sc"
+        },
+        "CC_42": {
+          "label": "Os2Pbr"
+        },
+        "CC_43": {
+          "label": "Os2Key"
+        },
+        "CC_44": {
+          "label": "Os2Lnk"
+        },
+        "CC_45": {
+          "label": "Wv1Lvl"
+        },
+        "CC_46": {
+          "label": "Wv2Lvl"
+        },
+        "CC_47": {
+          "label": "Ringmd"
+        },
+        "CC_48": {
+          "label": "Nois"
+        },
+        "CC_50": {
+          "label": "F1CutO"
+        },
+        "CC_51": {
+          "label": "F1KeyT"
+        },
+        "CC_52": {
+          "label": "F1EnvA"
+        },
+        "CC_53": {
+          "label": "F1VelA"
+        },
+        "CC_54": {
+          "label": "F1Type"
+        },
+        "CC_55": {
+          "label": "AmpKy"
+        },
+        "CC_56": {
+          "label": "F1Res"
+        },
+        "CC_57": {
+          "label": "AmpVol"
+        },
+        "CC_58": {
+          "label": "AmpEnV"
+        },
+        "CC_60": {
+          "label": "F2CutO"
+        },
+        "CC_61": {
+          "label": "F2Type"
+        },
+        "CC_62": {
+          "label": "F2KeyT"
+        },
+        "CC_64": {
+          "label": "Sustan"
+        },
+        "CC_65": {
+          "label": "GldAct"
+        },
+        "CC_70": {
+          "label": "Wavtbl"
+        },
+        "CC_71": {
+          "label": "W1Strt"
+        },
+        "CC_72": {
+          "label": "W1Phse"
+        },
+        "CC_73": {
+          "label": "W1EnvA"
+        },
+        "CC_74": {
+          "label": "W1EnvV"
+        },
+        "CC_75": {
+          "label": "W1KeyT"
+        },
+        "CC_76": {
+          "label": "W1Lmt"
+        },
+        "CC_77": {
+          "label": "W2Strt"
+        },
+        "CC_78": {
+          "label": "W2Phse"
+        },
+        "CC_79": {
+          "label": "W2EnvA"
+        },
+        "CC_80": {
+          "label": "W2EnvV"
+        },
+        "CC_81": {
+          "label": "W2KeyT"
+        },
+        "CC_82": {
+          "label": "W2Lmt"
+        },
+        "CC_83": {
+          "label": "W2Link"
+        },
+        "CC_85": {
+          "label": "FrETm1"
+        },
+        "CC_86": {
+          "label": "FrELv1"
+        },
+        "CC_87": {
+          "label": "FrETm2"
+        },
+        "CC_88": {
+          "label": "FrELv2"
+        },
+        "CC_89": {
+          "label": "FrETm3"
+        },
+        "CC_90": {
+          "label": "FrEL3"
+        },
+        "CC_91": {
+          "label": "FrERsT"
+        },
+        "CC_92": {
+          "label": "FrERsL"
+        },
+        "CC_93": {
+          "label": "FrETrg"
+        },
+        "CC_94": {
+          "label": "MOD1"
+        },
+        "CC_95": {
+          "label": "MOD2"
+        },
+        "CC_96": {
+          "label": "CTRL-W"
+        },
+        "CC_97": {
+          "label": "CTRL-X"
+        },
+        "CC_98": {
+          "label": "CTRL-Y"
+        },
+        "CC_99": {
+          "label": "CTRL-Z"
+        },
+        "CC_102": {
+          "label": "ARPact"
+        },
+        "CC_103": {
+          "label": "ARPrng"
+        },
+        "CC_104": {
+          "label": "ARPclk"
+        },
+        "CC_105": {
+          "label": "ARPtmp"
+        },
+        "CC_106": {
+          "label": "ARPdr"
+        },
+        "CC_107": {
+          "label": "ARPptn"
+        },
+        "CC_108": {
+          "label": "ARPntO"
+        },
+        "CC_109": {
+          "label": "ARPvel"
+        },
+        "CC_110": {
+          "label": "ARPrst"
+        },
+        "CC_111": {
+          "label": "ARPlng"
+        },
+        "CC_112": {
+          "label": "LFO1sc"
+        },
+        "CC_113": {
+          "label": "LFO1sm"
+        },
+        "CC_114": {
+          "label": "LFO1h"
+        },
+        "CC_115": {
+          "label": "LFO2sc"
+        },
+        "CC_116": {
+          "label": "LFO2sm"
+        },
+        "CC_117": {
+          "label": "LFO2h"
+        },
+        "CC_118": {
+          "label": "LFO2ph"
+        }
+      }
+    },
+    "NordA": {
+      "midi_port": 2,
+      "midi_chan": 1,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        },
+        "slot_7": {
+          "MIDI_CC": 74,
+          "label": "FCut"
+        },
+        "slot_8": {
+          "MIDI_CC": 31,
+          "label": "O2Sync"
+        },
+        "slot_9": {
+          "MIDI_CC": 78,
+          "label": "O2Semi"
+        },
+        "slot_10": {
+          "MIDI_CC": 33,
+          "label": "O2Fine"
+        },
+        "slot_11": {
+          "MIDI_CC": 34,
+          "label": "O2KTrk"
+        },
+        "slot_12": {
+          "MIDI_CC": 31,
+          "label": "O2Sync"
+        },
+        "slot_13": {
+          "MIDI_CC": 70,
+          "label": "OscFM"
+        },
+        "slot_14": {
+          "MIDI_CC": 79,
+          "label": "OscPW"
+        },
+        "slot_15": {
+          "MIDI_CC": 8,
+          "label": "OscMix"
+        }
+      },
+      "CC_defs": {
+        "CC_8": {
+          "label": "OscMix"
+        },
+        "CC_30": {
+          "label": "O1Wave"
+        },
+        "CC_31": {
+          "label": "O2Sync"
+        },
+        "CC_33": {
+          "label": "O2Fine"
+        },
+        "CC_34": {
+          "label": "O2KTrk"
+        },
+        "CC_70": {
+          "label": "OscFM"
+        },
+        "CC_78": {
+          "label": "O2Semi"
+        },
+        "CC_79": {
+          "label": "OscPW"
+        }
+      }
+    },
+    "NordB": {
+      "midi_port": 2,
+      "midi_chan": 2,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        }
+      }
+    },
+    "NordC": {
+      "midi_port": 2,
+      "midi_chan": 3,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        },
+        "slot_7": {
+          "MIDI_CC": 74,
+          "label": "FCut"
+        }
+      },
+      "CC_defs": {
+        "CC_5": {
+          "label": "GldTme"
+        },
+        "CC_33": {
+          "label": "Os1Oct"
+        }
+      }
+    },
+    "NordD": {
+      "midi_port": 2,
+      "midi_chan": 4,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        }
+      },
+      "CC_defs": {
+        "CC_5": {
+          "label": "GldTme"
+        },
+        "CC_33": {
+          "label": "Os1Oct"
+        }
+      }
+    },
+    "Pulse": {
+      "midi_port": 2,
+      "midi_chan": 10,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 32,
+          "label": "Os1Sem"
+        },
+        "slot_3": {
+          "MIDI_CC": 33,
+          "label": "Os1Oct"
+        },
+        "slot_4": {
+          "MIDI_CC": 34,
+          "label": "Os1Shp"
+        },
+        "slot_5": {
+          "MIDI_CC": 35,
+          "label": "Os1PW"
+        },
+        "slot_6": {
+          "MIDI_CC": 36,
+          "label": "Os2Sem"
+        },
+        "slot_7": {
+          "MIDI_CC": 37,
+          "label": "Os2Oct"
+        },
+        "slot_8": {
+          "MIDI_CC": 38,
+          "label": "Os2Shp"
+        },
+        "slot_9": {
+          "MIDI_CC": 39,
+          "label": "Os2PW"
+        },
+        "slot_10": {
+          "MIDI_CC": 40,
+          "label": "Os2Key"
+        },
+        "slot_11": {
+          "MIDI_CC": 41,
+          "label": "Os2Syn"
+        },
+        "slot_12": {
+          "MIDI_CC": 42,
+          "label": "Os3Sem"
+        },
+        "slot_13": {
+          "MIDI_CC": 43,
+          "label": "Os3Oct"
+        },
+        "slot_14": {
+          "MIDI_CC": 44,
+          "label": "Os3Shp"
+        },
+        "slot_15": {
+          "MIDI_CC": 45,
+          "label": "O1Lvl"
+        },
+        "slot_16": {
+          "MIDI_CC": 46,
+          "label": "O2Lvl"
+        },
+        "slot_17": {
+          "MIDI_CC": 47,
+          "label": "O3Lvl"
+        },
+        "slot_18": {
+          "MIDI_CC": 48,
+          "label": "NoisL"
+        },
+        "slot_19": {
+          "MIDI_CC": 50,
+          "label": "F1CutO"
+        },
+        "slot_20": {
+          "MIDI_CC": 51,
+          "label": "F1KeyT"
+        },
+        "slot_21": {
+          "MIDI_CC": 52,
+          "label": "CEn1S"
+        },
+        "slot_22": {
+          "MIDI_CC": 53,
+          "label": "CVelS"
+        },
+        "slot_23": {
+          "MIDI_CC": 54,
+          "label": "CModS"
+        },
+        "slot_24": {
+          "MIDI_CC": 55,
+          "label": "CModA"
+        },
+        "slot_25": {
+          "MIDI_CC": 56,
+          "label": "F1Res"
+        },
+        "slot_26": {
+          "MIDI_CC": 14,
+          "label": "En1Atk"
+        },
+        "slot_27": {
+          "MIDI_CC": 15,
+          "label": "En1Dec"
+        },
+        "slot_28": {
+          "MIDI_CC": 16,
+          "label": "En1Sus"
+        },
+        "slot_29": {
+          "MIDI_CC": 17,
+          "label": "En1Rel"
+        },
+        "slot_30": {
+          "MIDI_CC": 18,
+          "label": "En2Atk"
+        },
+        "slot_31": {
+          "MIDI_CC": 19,
+          "label": "En2Dec"
+        },
+        "slot_32": {
+          "MIDI_CC": 20,
+          "label": "En2Sus"
+        },
+        "slot_33": {
+          "MIDI_CC": 21,
+          "label": "En2Rel"
+        },
+        "slot_34": {
+          "MIDI_CC": 28,
+          "label": "E1Key"
+        },
+        "slot_35": {
+          "MIDI_CC": 29,
+          "label": "E1Trg"
+        },
+        "slot_36": {
+          "MIDI_CC": 30,
+          "label": "E2Key"
+        },
+        "slot_37": {
+          "MIDI_CC": 31,
+          "label": "E2Trg"
+        },
+        "slot_38": {
+          "MIDI_CC": 24,
+          "label": "LFO1Sp"
+        },
+        "slot_39": {
+          "MIDI_CC": 25,
+          "label": "LFO1Sh"
+        },
+        "slot_40": {
+          "MIDI_CC": 26,
+          "label": "LFO2Sp"
+        },
+        "slot_41": {
+          "MIDI_CC": 27,
+          "label": "LFO2De"
+        },
+        "slot_42": {
+          "MIDI_CC": 102,
+          "label": "ArpAct"
+        },
+        "slot_43": {
+          "MIDI_CC": 103,
+          "label": "ArpRan"
+        },
+        "slot_44": {
+          "MIDI_CC": 104,
+          "label": "ArpClk"
+        },
+        "slot_45": {
+          "MIDI_CC": 105,
+          "label": "ArpTem"
+        },
+        "slot_46": {
+          "MIDI_CC": 106,
+          "label": "ArpMde"
+        },
+        "slot_47": {
+          "MIDI_CC": 108,
+          "label": "M1Src"
+        },
+        "slot_48": {
+          "MIDI_CC": 109,
+          "label": "M1Amt"
+        },
+        "slot_49": {
+          "MIDI_CC": 110,
+          "label": "M1Des"
+        },
+        "slot_50": {
+          "MIDI_CC": 111,
+          "label": "M2Src"
+        },
+        "slot_51": {
+          "MIDI_CC": 112,
+          "label": "M2Amt"
+        },
+        "slot_52": {
+          "MIDI_CC": 113,
+          "label": "M2Des"
+        },
+        "slot_53": {
+          "MIDI_CC": 114,
+          "label": "M3Src"
+        },
+        "slot_54": {
+          "MIDI_CC": 115,
+          "label": "M3Amt"
+        },
+        "slot_55": {
+          "MIDI_CC": 116,
+          "label": "M3Des"
+        },
+        "slot_56": {
+          "MIDI_CC": 117,
+          "label": "M4Src"
+        },
+        "slot_57": {
+          "MIDI_CC": 118,
+          "label": "M4Amt"
+        },
+        "slot_58": {
+          "MIDI_CC": 119,
+          "label": "M4Des"
+        },
+        "slot_59": {
+          "MIDI_CC": 57,
+          "label": "Vol"
+        },
+        "slot_60": {
+          "MIDI_CC": 58,
+          "label": "VVeloS"
+        },
+        "slot_61": {
+          "MIDI_CC": 22,
+          "label": "CV2Src"
+        },
+        "slot_62": {
+          "MIDI_CC": 23,
+          "label": "CV2Amt"
+        },
+        "slot_63": {
+          "MIDI_CC": 49,
+          "label": "ExtSig"
+        },
+        "slot_64": {
+          "MIDI_CC": 60,
+          "label": "PModS"
+        },
+        "slot_65": {
+          "MIDI_CC": 61,
+          "label": "PModA"
+        },
+        "slot_66": {
+          "MIDI_CC": 62,
+          "label": "PortoM"
+        },
+        "slot_67": {
+          "MIDI_CC": 63,
+          "label": "PBndSc"
+        },
+        "slot_68": {
+          "MIDI_CC": 64,
+          "label": "SustSw"
+        },
+        "slot_69": {
+          "MIDI_CC": 1,
+          "label": "ModWh"
+        },
+        "slot_70": {
+          "MIDI_CC": 2,
+          "label": "BrthCo"
+        },
+        "slot_71": {
+          "MIDI_CC": 5,
+          "label": "PortoT"
+        },
+        "slot_72": {
+          "MIDI_CC": 7,
+          "label": "VolMn"
+        },
+        "slot_73": {
+          "MIDI_CC": 10,
+          "label": "Pan"
+        },
+        "slot_74": {
+          "MIDI_CC": 121,
+          "label": "Reset"
+        },
+        "slot_75": {
+          "MIDI_CC": 123,
+          "label": "NotOff"
+        }
+      },
+      "CC_defs": {
+        "CC_1": {
+          "label": "ModWh"
+        },
+        "CC_2": {
+          "label": "BrthCo"
+        },
+        "CC_5": {
+          "label": "PortoT"
+        },
+        "CC_7": {
+          "label": "VolMn"
+        },
+        "CC_10": {
+          "label": "Pan"
+        },
+        "CC_14": {
+          "label": "En1Atk"
+        },
+        "CC_15": {
+          "label": "En1Dec"
+        },
+        "CC_16": {
+          "label": "En1Sus"
+        },
+        "CC_17": {
+          "label": "En1Rel"
+        },
+        "CC_18": {
+          "label": "En2Atk"
+        },
+        "CC_19": {
+          "label": "En2Dec"
+        },
+        "CC_20": {
+          "label": "En2Sus"
+        },
+        "CC_21": {
+          "label": "En2Rel"
+        },
+        "CC_22": {
+          "label": "CV2Src"
+        },
+        "CC_23": {
+          "label": "CV2Amt"
+        },
+        "CC_24": {
+          "label": "LFO1Sp"
+        },
+        "CC_25": {
+          "label": "LFO1Sh"
+        },
+        "CC_26": {
+          "label": "LFO2Sp"
+        },
+        "CC_27": {
+          "label": "LFO2De"
+        },
+        "CC_28": {
+          "label": "E1Key"
+        },
+        "CC_29": {
+          "label": "E1Trg"
+        },
+        "CC_30": {
+          "label": "E2Key"
+        },
+        "CC_31": {
+          "label": "E2Trg"
+        },
+        "CC_32": {
+          "label": "Os1Sem"
+        },
+        "CC_33": {
+          "label": "Os1Oct"
+        },
+        "CC_34": {
+          "label": "Os1Shp"
+        },
+        "CC_35": {
+          "label": "Os1PW"
+        },
+        "CC_36": {
+          "label": "Os2Sem"
+        },
+        "CC_37": {
+          "label": "Os2Oct"
+        },
+        "CC_38": {
+          "label": "Os2Shp"
+        },
+        "CC_39": {
+          "label": "Os2PW"
+        },
+        "CC_40": {
+          "label": "Os2Key"
+        },
+        "CC_41": {
+          "label": "Os2Syn"
+        },
+        "CC_42": {
+          "label": "Os3Sem"
+        },
+        "CC_43": {
+          "label": "Os3Oct"
+        },
+        "CC_44": {
+          "label": "Os3Shp"
+        },
+        "CC_45": {
+          "label": "O1Lvl"
+        },
+        "CC_46": {
+          "label": "O2Lvl"
+        },
+        "CC_47": {
+          "label": "O3Lvl"
+        },
+        "CC_48": {
+          "label": "NoisL"
+        },
+        "CC_49": {
+          "label": "ExtSig"
+        },
+        "CC_50": {
+          "label": "F1CutO"
+        },
+        "CC_51": {
+          "label": "F1KeyT"
+        },
+        "CC_52": {
+          "label": "CEn1S"
+        },
+        "CC_53": {
+          "label": "CVelS"
+        },
+        "CC_54": {
+          "label": "CModS"
+        },
+        "CC_55": {
+          "label": "CModA"
+        },
+        "CC_56": {
+          "label": "F1Res"
+        },
+        "CC_57": {
+          "label": "Vol"
+        },
+        "CC_58": {
+          "label": "VVeloS"
+        },
+        "CC_60": {
+          "label": "PModS"
+        },
+        "CC_61": {
+          "label": "PModA"
+        },
+        "CC_62": {
+          "label": "PortoM"
+        },
+        "CC_63": {
+          "label": "PBndSc"
+        },
+        "CC_64": {
+          "label": "SustSw"
+        },
+        "CC_102": {
+          "label": "ArpAct"
+        },
+        "CC_103": {
+          "label": "ArpRan"
+        },
+        "CC_104": {
+          "label": "ArpClk"
+        },
+        "CC_105": {
+          "label": "ArpTem"
+        },
+        "CC_106": {
+          "label": "ArpMde"
+        },
+        "CC_108": {
+          "label": "M1Src"
+        },
+        "CC_109": {
+          "label": "M1Amt"
+        },
+        "CC_110": {
+          "label": "M1Des"
+        },
+        "CC_111": {
+          "label": "M2Src"
+        },
+        "CC_112": {
+          "label": "M2Amt"
+        },
+        "CC_113": {
+          "label": "M2Des"
+        },
+        "CC_114": {
+          "label": "M3Src"
+        },
+        "CC_115": {
+          "label": "M3Amt"
+        },
+        "CC_116": {
+          "label": "M3Des"
+        },
+        "CC_117": {
+          "label": "M4Src"
+        },
+        "CC_118": {
+          "label": "M4Amt"
+        },
+        "CC_119": {
+          "label": "M4Des"
+        },
+        "CC_121": {
+          "label": "Reset"
+        },
+        "CC_123": {
+          "label": "NotOff"
+        }
+      }
+    },
+    "Voyager": {
+      "midi_port": 3,
+      "midi_chan": 9,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        },
+        "slot_4": {
+          "MIDI_CC": 15,
+          "label": "O1-LVL"
+        },
+        "slot_5": {
+          "MIDI_CC": 16,
+          "label": "O2-LVL"
+        },
+        "slot_6": {
+          "MIDI_CC": 17,
+          "label": "O3-LVL"
+        },
+        "slot_7": {
+          "MIDI_CC": 19,
+          "label": "F-CUT"
+        },
+        "slot_8": {
+          "MIDI_CC": 20,
+          "label": "F-SPC"
+        },
+        "slot_9": {
+          "MIDI_CC": 21,
+          "label": "F-RES"
+        },
+        "slot_10": {
+          "MIDI_CC": 27,
+          "label": "F-AMNT"
+        },
+        "slot_11": {
+          "MIDI_CC": 29,
+          "label": "AmpDec"
+        },
+        "slot_12": {
+          "MIDI_CC": 31,
+          "label": "AmpRls"
+        },
+        "slot_13": {
+          "MIDI_CC": 74,
+          "label": "O1-OCT"
+        },
+        "slot_14": {
+          "MIDI_CC": 75,
+          "label": "O2-OCT"
+        },
+        "slot_15": {
+          "MIDI_CC": 76,
+          "label": "O3-OCT"
+        },
+        "slot_16": {
+          "MIDI_CC": 10,
+          "label": "O2-FQ"
+        },
+        "slot_17": {
+          "MIDI_CC": 12,
+          "label": "O3-FQ"
+        },
+        "slot_18": {
+          "MIDI_CC": 77,
+          "label": "1-2SYN"
+        },
+        "slot_19": {
+          "MIDI_CC": 9,
+          "label": "O1-WVE"
+        },
+        "slot_20": {
+          "MIDI_CC": 11,
+          "label": "O2-WVE"
+        },
+        "slot_21": {
+          "MIDI_CC": 13,
+          "label": "O3-WVE"
+        },
+        "slot_22": {
+          "MIDI_CC": 82,
+          "label": "O1-ON"
+        },
+        "slot_23": {
+          "MIDI_CC": 83,
+          "label": "O2-ON"
+        },
+        "slot_24": {
+          "MIDI_CC": 84,
+          "label": "O3-ON"
+        },
+        "slot_25": {
+          "MIDI_CC": 85,
+          "label": "NZE-ON"
+        },
+        "slot_26": {
+          "MIDI_CC": 18,
+          "label": "NZE-LV"
+        },
+        "slot_27": {
+          "MIDI_CC": 78,
+          "label": "3-1 FM"
+        },
+        "slot_28": {
+          "MIDI_CC": 80,
+          "label": "HI-LOW"
+        },
+        "slot_29": {
+          "MIDI_CC": 65,
+          "label": "GLI-ON"
+        },
+        "slot_30": {
+          "MIDI_CC": 5,
+          "label": "GL-SPD"
+        },
+        "slot_31": {
+          "MIDI_CC": 23,
+          "label": "FilAtk"
+        },
+        "slot_32": {
+          "MIDI_CC": 24,
+          "label": "FilDec"
+        },
+        "slot_33": {
+          "MIDI_CC": 25,
+          "label": "FilSus"
+        },
+        "slot_34": {
+          "MIDI_CC": 26,
+          "label": "FilRel"
+        },
+        "slot_35": {
+          "MIDI_CC": 28,
+          "label": "AmpAtk"
+        },
+        "slot_36": {
+          "MIDI_CC": 30,
+          "label": "AmpSus"
+        },
+        "slot_37": {
+          "MIDI_CC": 2,
+          "label": "Mod1"
+        },
+        "slot_38": {
+          "MIDI_CC": 4,
+          "label": "Mod2"
+        },
+        "slot_39": {
+          "MIDI_CC": 3,
+          "label": "LfoSpd"
+        },
+        "slot_40": {
+          "track_control": "note%"
+        },
+        "slot_41": {
+          "track_control": "noteC"
+        },
+        "slot_42": {
+          "track_control": "octave"
+        },
+        "slot_43": {
+          "track_control": "velo%"
+        },
+        "slot_44": {
+          "track_control": "veloC"
+        },
+        "slot_45": {
+          "track_control": "leng%"
+        },
+        "slot_46": {
+          "track_control": "knob1"
+        },
+        "slot_47": {
+          "track_control": "knob2"
+        },
+        "slot_48": {
+          "track_control": "quant%"
+        }
+      },
+      "CC_defs": {
+        "CC_2": {
+          "label": "Mod1"
+        },
+        "CC_3": {
+          "label": "LfoSpd"
+        },
+        "CC_4": {
+          "label": "Mod2"
+        },
+        "CC_5": {
+          "label": "GL-SPD"
+        },
+        "CC_9": {
+          "label": "O1-WVE"
+        },
+        "CC_10": {
+          "label": "O2-FQ"
+        },
+        "CC_11": {
+          "label": "O2-WVE"
+        },
+        "CC_12": {
+          "label": "O3-FQ"
+        },
+        "CC_13": {
+          "label": "O3-WVE"
+        },
+        "CC_15": {
+          "label": "O1-LVL"
+        },
+        "CC_16": {
+          "label": "O2-LVL"
+        },
+        "CC_17": {
+          "label": "O3-LVL"
+        },
+        "CC_18": {
+          "label": "NZE-LV"
+        },
+        "CC_19": {
+          "label": "F-CUT"
+        },
+        "CC_20": {
+          "label": "F-SPC"
+        },
+        "CC_21": {
+          "label": "F-RES"
+        },
+        "CC_23": {
+          "label": "FilAtk"
+        },
+        "CC_24": {
+          "label": "FilDec"
+        },
+        "CC_25": {
+          "label": "FilSus"
+        },
+        "CC_26": {
+          "label": "FilRel"
+        },
+        "CC_27": {
+          "label": "F-AMNT"
+        },
+        "CC_28": {
+          "label": "AmpAtk"
+        },
+        "CC_29": {
+          "label": "AmpDec"
+        },
+        "CC_30": {
+          "label": "AmpSus"
+        },
+        "CC_31": {
+          "label": "AmpRls"
+        },
+        "CC_65": {
+          "label": "GLI-ON"
+        },
+        "CC_74": {
+          "label": "O1-OCT"
+        },
+        "CC_75": {
+          "label": "O2-OCT"
+        },
+        "CC_76": {
+          "label": "O3-OCT"
+        },
+        "CC_77": {
+          "label": "1-2SYN"
+        },
+        "CC_78": {
+          "label": "3-1 FM"
+        },
+        "CC_80": {
+          "label": "HI-LOW"
+        },
+        "CC_82": {
+          "label": "O1-ON"
+        },
+        "CC_83": {
+          "label": "O2-ON"
+        },
+        "CC_84": {
+          "label": "O3-ON"
+        },
+        "CC_85": {
+          "label": "NZE-ON"
+        }
+      }
+    },
+    "x-Brute": {
+      "midi_port": 1,
+      "midi_chan": 8,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        },
+        "slot_7": {
+          "MIDI_CC": 30,
+          "label": "O1Wave"
+        },
+        "slot_8": {
+          "MIDI_CC": 31,
+          "label": "O2Sync"
+        },
+        "slot_9": {
+          "MIDI_CC": 78,
+          "label": "O2Semi"
+        },
+        "slot_10": {
+          "MIDI_CC": 33,
+          "label": "O2Fine"
+        },
+        "slot_11": {
+          "MIDI_CC": 34,
+          "label": "O2KTrk"
+        },
+        "slot_12": {
+          "MIDI_CC": 31,
+          "label": "O2Sync"
+        },
+        "slot_13": {
+          "MIDI_CC": 70,
+          "label": "OscFM"
+        },
+        "slot_14": {
+          "MIDI_CC": 79,
+          "label": "OscPW"
+        },
+        "slot_15": {
+          "MIDI_CC": 8,
+          "label": "OscMix"
+        }
+      },
+      "CC_defs": {
+        "CC_8": {
+          "label": "OscMix"
+        },
+        "CC_30": {
+          "label": "O1Wave"
+        },
+        "CC_31": {
+          "label": "O2Sync"
+        },
+        "CC_33": {
+          "label": "O2Fine"
+        },
+        "CC_34": {
+          "label": "O2KTrk"
+        },
+        "CC_70": {
+          "label": "OscFM"
+        },
+        "CC_78": {
+          "label": "O2Semi"
+        },
+        "CC_79": {
+          "label": "OscPW"
+        }
+      }
+    },
+    "x-Minilog": {
+      "midi_port": 4,
+      "midi_chan": 8,
+      "default_note": "C 3",
+      "default_patt": "P3",
+      "poly_spread": "off",
+      "track_values": {
+        "slot_1": {
+          "track_control": "pgm"
+        },
+        "slot_2": {
+          "MIDI_CC": 0
+        },
+        "slot_3": {
+          "MIDI_CC": 32
+        },
+        "slot_7": {
+          "MIDI_CC": 4,
+          "label": "O2Wave"
+        },
+        "slot_8": {
+          "MIDI_CC": 2,
+          "label": "O1Pitc"
+        },
+        "slot_9": {
+          "MIDI_CC": 4,
+          "label": "O2Wave"
+        },
+        "slot_10": {
+          "MIDI_CC": 3,
+          "label": "O2Pitc"
+        },
+        "slot_11": {
+          "MIDI_CC": 9,
+          "label": "CrsMod"
+        },
+        "slot_12": {
+          "MIDI_CC": 10,
+          "label": "PchEnv"
+        },
+        "slot_13": {
+          "MIDI_CC": 11,
+          "label": "CUTOFF"
+        },
+        "slot_14": {
+          "MIDI_CC": 12,
+          "label": "RESO"
+        },
+        "slot_15": {
+          "MIDI_CC": 13,
+          "label": "FilEnv"
+        },
+        "slot_19": {
+          "MIDI_CC": 16,
+          "label": "AmpAtk"
+        },
+        "slot_20": {
+          "MIDI_CC": 17,
+          "label": "AmpDcy"
+        },
+        "slot_21": {
+          "MIDI_CC": 18,
+          "label": "AmpSus"
+        },
+        "slot_22": {
+          "MIDI_CC": 19,
+          "label": "AmpRel"
+        },
+        "slot_25": {
+          "MIDI_CC": 20,
+          "label": "Atk"
+        },
+        "slot_26": {
+          "MIDI_CC": 21,
+          "label": "Dcy"
+        },
+        "slot_27": {
+          "MIDI_CC": 22,
+          "label": "Sus"
+        },
+        "slot_28": {
+          "MIDI_CC": 23,
+          "label": "Rel"
+        }
+      },
+      "CC_defs": {
+        "CC_2": {
+          "label": "O1Pitc"
+        },
+        "CC_3": {
+          "label": "O2Pitc"
+        },
+        "CC_4": {
+          "label": "O2Wave"
+        },
+        "CC_9": {
+          "label": "CrsMod"
+        },
+        "CC_10": {
+          "label": "PchEnv"
+        },
+        "CC_11": {
+          "label": "CUTOFF"
+        },
+        "CC_12": {
+          "label": "RESO"
+        },
+        "CC_13": {
+          "label": "FilEnv"
+        },
+        "CC_16": {
+          "label": "AmpAtk"
+        },
+        "CC_17": {
+          "label": "AmpDcy"
+        },
+        "CC_18": {
+          "label": "AmpSus"
+        },
+        "CC_19": {
+          "label": "AmpRel"
+        },
+        "CC_20": {
+          "label": "Atk"
+        },
+        "CC_21": {
+          "label": "Dcy"
+        },
+        "CC_22": {
+          "label": "Sus"
+        },
+        "CC_23": {
+          "label": "Rel"
+        }
+      }
+    }
+  }
+}
