@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -46,12 +47,22 @@ namespace CKIEditor.Model
 
             return 0;
         }
+        
+        public static int GetNoteIndex(int noteId)
+        {
+            return noteId % OCTAVE_INTERVAL;
+        }
 
         public static int GetOctaveIndex(string noteString)
         {
             var octaveNumber = noteString.Substring(2);
             int.TryParse(octaveNumber, out int octaveIndex);
             return octaveIndex;
+        }
+        
+        public static int GetOctaveIndex(int noteId)
+        {
+            return (int)Math.Floor((double)noteId / OCTAVE_INTERVAL);
         }
         
         public static string GetNoteName(int noteId)

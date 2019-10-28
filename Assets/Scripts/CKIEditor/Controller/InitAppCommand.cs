@@ -19,7 +19,7 @@ namespace CKIEditor.Controller
         
         public override void Execute()
         {
-            var path = "/TEMP/INSTS.CKI";
+            var path = "/TEMP/CKI_EDITOR/TEST-INS.CKI";
             var jsonString = File.ReadAllText(path);
             var instruments = InstrumentsParser.ParseInstruments(jsonString);
             InstrumentsModel.AddInstruments(instruments);

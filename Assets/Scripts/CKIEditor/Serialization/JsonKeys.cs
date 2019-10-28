@@ -2,7 +2,8 @@ namespace CKIEditor.Serialization
 {
     public class JsonKeys
     {
-        public const string ROOT_NODE = "instrument_data";
+        public const string FILE_EXTENSIONS = "CKI";
+        public const string INSTRUMENT_DATA = "instrument_data";
         
         //global
         public const string MIDI_PORT = "midi_port";

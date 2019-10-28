@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 using CKIEditor.Model;
 using CKIEditor.Serialization;
@@ -24,7 +23,7 @@ namespace CKIEditor.Controller
 
         public override void Execute()
         {
-            var path = FileBrowser.OpenSingleFile("cki");
+            var path = FileBrowser.OpenSingleFile(JsonKeys.FILE_EXTENSIONS);
             Debug.LogWarning(string.Format("<color=\"aqua\">ImportInstrumentsCommand.Execute() : path:{0}</color>", path));
             var jsonString = File.ReadAllText(path);
             var instruments = InstrumentsParser.ParseInstruments(jsonString);

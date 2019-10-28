@@ -13,10 +13,14 @@ namespace CKIEditor.UI.InstrumentLibrary
         [Inject] public IInstrumentsModel InstrumentsModel { get; set; }
         [Inject] public IOptionsModel OptionsModel { get; set; }
         
+        //listen
         [Inject] public InstrumentGeneralSettingsChangedSignal InstrumentGeneralSettingsChangedSignal { get; set; }
         [Inject] public EditedInstrumentChangedSignal EditedInstrumentChangedSignal { get; set; }
         [Inject] public InstrumentsImportedSignal InstrumentsImportedSignal { get; set; }
+        
+        //dispatches
         [Inject] public ImportInstrumentsSignal ImportInstrumentsSignal { get; set; }
+        [Inject] public ExportInstrumentsSignal ExportInstrumentsSignal { get; set; }
         [Inject] public CreateNewInstrumentSignal CreateNewInstrumentSignal { get; set; }
         
         public override void OnRegister()
@@ -88,7 +92,7 @@ namespace CKIEditor.UI.InstrumentLibrary
 
         private void ExportButtonHandler()
         {
-            
+            ExportInstrumentsSignal.Dispatch();    
         }
     }
 }

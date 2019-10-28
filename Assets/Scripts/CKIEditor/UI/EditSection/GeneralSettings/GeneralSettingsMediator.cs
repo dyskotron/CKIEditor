@@ -46,8 +46,8 @@ namespace CKIEditor.UI.EditSection.GeneralSettings
             View.InstrumentNameInput.text = inst.Name;
             View.MidiPortDropdown.value = inst.MidiPort - 1;
             View.MidiChannelDropdown.value = inst.MidiChannel - 1;
-            View.DefaultNoteDropdown.value = NoteStringHelper.GetNoteIndex(inst.DefaultNote);
-            View.DefaultNoteOctaveDropdown.value = NoteStringHelper.GetOctaveIndex(inst.DefaultNote);
+            View.DefaultNoteDropdown.value = inst.DefaultNote.NoteIndex;
+            View.DefaultNoteOctaveDropdown.value = inst.DefaultNote.OctaveIndex;
             View.DefaultPatternDropdown.value = (int)inst.DefaultPattern;
             
             View.DefaultPatternDropdown.value = (int)inst.DefaultPattern;
@@ -70,9 +70,7 @@ namespace CKIEditor.UI.EditSection.GeneralSettings
             inst.MidiPort = View.MidiPortDropdown.value + 1;
             inst.MidiChannel = View.MidiChannelDropdown.value + 1;
             
-            var noteId = NoteStringHelper.GetNoteId(View.DefaultNoteDropdown.value, View.DefaultNoteOctaveDropdown.value);
-            inst.DefaultNote = NoteStringHelper.GetNoteName(noteId);
-            
+            inst.DefaultNote = new Note(View.DefaultNoteDropdown.value, View.DefaultNoteOctaveDropdown.value);
             inst.DefaultPattern =  (PatternType)View.DefaultPatternDropdown.value;
             
             inst.Multi = View.MultiToggle.isOn;

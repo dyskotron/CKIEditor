@@ -13,7 +13,7 @@ namespace CKIEditor.Model.Defs
         public int MidiChannel = 1;
         
         //TODO: off + C0 - G10
-        public string DefaultNote = "C 3";
+        public Note DefaultNote;
         public PatternType DefaultPattern = PatternType.Sel;
         public bool Multi;
         public bool PolySpread;
