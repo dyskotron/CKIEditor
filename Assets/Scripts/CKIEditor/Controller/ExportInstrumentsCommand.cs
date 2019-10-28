@@ -2,9 +2,9 @@ using System.IO;
 using CKIEditor.Model;
 using CKIEditor.Serialization;
 using Crosstales.FB;
+using Framewerk.Managers;
 using strange.extensions.command.impl;
 using strange.extensions.signal.impl;
-using UnityEngine;
 
 namespace CKIEditor.Controller
 {
@@ -17,14 +17,18 @@ namespace CKIEditor.Controller
     {
         [Inject] public IInstrumentsModel InstrumentsModel { get; set; }
         [Inject] public IInstrumentsParser InstrumentsParser { get; set; }
-        
+        [Inject] public IPlayerPrefsManager PrefsManager { get; set; }
+
+        private const string SAVE_DIRECTORY_KEY = "saveDirectory";
+            
         public override void Execute()
         {
+            var loadDirectory =  PrefsManager.GetUserString(SAVE_DIRECTORY_KEY, null);
+            string path = FileBrowser.SaveFile("Export CKI file",loadDirectory,"Library", JsonKeys.FILE_EXTENSIONS);
+            PrefsManager.SetUserData(SAVE_DIRECTORY_KEY, Path.GetDirectoryName(path));
+            
             var json = InstrumentsParser.BuildCkiFile(InstrumentsModel.GetAllInstruments());
-            //Debug.LogWarning($"<color=\"aqua\">InstrumentsParser.UnparseInstruments() : {json}</color>");
-            string path = FileBrowser.SaveFile("Library", JsonKeys.FILE_EXTENSIONS);
             File.WriteAllText(path, json);
-            Debug.Log($"Save file: {path}");
         }
     }
 }
