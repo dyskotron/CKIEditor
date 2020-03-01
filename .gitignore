@@ -1,0 +1,8 @@
+/.idea/.idea.CKIEditor/
+/Library/
+/Temp/
+/Logs/
+*.sln
+*.csproj
+*.csproj.DotSettings
+/Desktop.ini
