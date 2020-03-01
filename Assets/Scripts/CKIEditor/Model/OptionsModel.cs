@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using CKIEditor.Model.Defs;
 using TMPro;
 
@@ -13,6 +14,10 @@ namespace CKIEditor.Model
         List<TMP_Dropdown.OptionData> GetNoteOptions();
         List<TMP_Dropdown.OptionData> GetOctaveOptions();
         List<TMP_Dropdown.OptionData> GetPatternOptions();
+        List<TMP_Dropdown.OptionData> GetTrackControlOptions();
+        List<TMP_Dropdown.OptionData> GetTrackValueOptions();
+        List<TMP_Dropdown.OptionData> GetCcOptions();
+        int GetCCnumberByOptionId(int value);
     }
     
     public class OptionsModel : IOptionsModel
@@ -36,7 +41,7 @@ namespace CKIEditor.Model
         {
             return GenerateOptionsFromEnum(typeof(MidiPortOption));
         }
-
+        
         public List<TMP_Dropdown.OptionData> GetMidiChannelOptions()
         {
             const int MIDI_CHANNEL_COUNT = 16;
@@ -88,6 +93,43 @@ namespace CKIEditor.Model
             options.Add(new TMP_Dropdown.OptionData("P3"));
             options.Add(new TMP_Dropdown.OptionData("CK"));
             return options;
+        }
+
+        public List<TMP_Dropdown.OptionData> GetTrackControlOptions()
+        {
+            return GenerateOptionsFromEnum(typeof(TrackControlType));
+        }
+        
+        public List<TMP_Dropdown.OptionData> GetTrackValueOptions()
+        {
+            return GenerateOptionsFromEnum(typeof(TrackValueType));
+        }
+
+        public List<TMP_Dropdown.OptionData> GetCcOptions()
+        {
+            var instrument = InstrumentsModel.GetEditedInstrument();
+            var options = new List<TMP_Dropdown.OptionData>();  
+            
+            foreach (var instrumentCcDef in instrument.CcDefs.Values)
+            {
+                options.Add(new TMP_Dropdown.OptionData(instrumentCcDef.Label));    
+            }
+
+            return options;
+        }
+
+        public int GetCCnumberByOptionId(int value)
+        {
+            //TODO: Refactor this super ugly way of getting cc num by option id
+            var instrument = InstrumentsModel.GetEditedInstrument();
+            return instrument.CcDefs.Values.ToList()[value].CcNum;
+        }
+        
+        public int GetOptionIdByCcNumber(int value)
+        {
+            //TODO: Refactor this super ugly way of getting cc num by option id
+            var instrument = InstrumentsModel.GetEditedInstrument();
+            return instrument.CcDefs.Values.ToList()[value].CcNum;
         }
 
         private List<TMP_Dropdown.OptionData> GenerateOptionsFromEnum(Type enumType)

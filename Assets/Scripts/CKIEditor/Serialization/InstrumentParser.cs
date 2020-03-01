@@ -136,9 +136,7 @@ namespace CKIEditor.Serialization
             if (trackValueType == TrackValueType.Empty)
                 return null;
 
-            var trackValueDef = new TrackValueDef();
-            trackValueDef.SlotIndex = index;
-            trackValueDef.Type = trackValueType;
+            var trackValueDef = new TrackValueDef {SlotIndex = index, Type = trackValueType};
 
             switch (trackValueType)
             {

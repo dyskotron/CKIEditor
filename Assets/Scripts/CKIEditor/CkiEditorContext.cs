@@ -62,7 +62,9 @@ namespace CKIEditor
             mediationBinder.Bind<EditorScreenView>().To<EditorScreenMediator>();
             
             mediationBinder.Bind<GeneralSettingsView>().To<GeneralSettingsMediator>();
-            mediationBinder.Bind<TrackValuesPageView>().To<TrackValuesPageMediator>();
+            
+            mediationBinder.Bind<TrackValueListView>().To<TrackValueListMediator>();
+            mediationBinder.Bind<TrackValueItemView>().To<TrackValueItemMediator>();
             
             mediationBinder.Bind<MainMenuView>().To<MainMenuMediator>();
             mediationBinder.Bind<MainMenuItemView>().To<MainMenuItemMediator>();

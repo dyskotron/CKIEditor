@@ -8,7 +8,7 @@ namespace CKIEditor.Model.Defs
         public static string DEFAULT_NAME = "New instrument";
         
         public int Id;
-        public string Name;
+        public string Name = DEFAULT_NAME;
         public int MidiPort = 1; // 1 - 5 midi 6 - 12 usb (usb1 - usb6)
         public int MidiChannel = 1;
         
@@ -25,7 +25,10 @@ namespace CKIEditor.Model.Defs
 
         public InstrumentDef()
         {
-            Name = DEFAULT_NAME;
+            for (var i = 1; i < CkiConsts.TRACK_VALUES_PER_SCREEN * 20 + 1; i++)
+            {
+                TrackValues[i] = new TrackValueDef {SlotIndex = i, Type = TrackValueType.Empty};
+            }
         }
     }
 }
