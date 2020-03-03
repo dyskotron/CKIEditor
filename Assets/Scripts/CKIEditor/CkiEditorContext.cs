@@ -45,7 +45,8 @@ namespace CKIEditor
             injectionBinder.Bind<IPlayerPrefsManager>().To<PlayerPrefsManager>().ToSingleton();
             
             injectionBinder.Bind<IAppModel>().To<AppModel>().ToSingleton();
-            injectionBinder.Bind<IInstrumentsParser>().To<InstrumentsParser>().ToSingleton();
+            injectionBinder.Bind<IInstrumentsParser>().To<CkiInstrumentsParser>().ToName(BindingKeys.PARSER_CKI).ToSingleton();
+            injectionBinder.Bind<IInstrumentsParser>().To<PyramidInstrumentsParser>().ToName(BindingKeys.PARSER_PYRAMID).ToSingleton();
             injectionBinder.Bind<IInstrumentsModel>().To<InstrumentsModel>().ToSingleton();
             injectionBinder.Bind<IOptionsModel>().To<OptionsModel>().ToSingleton();
             

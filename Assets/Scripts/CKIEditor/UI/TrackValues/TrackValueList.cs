@@ -32,7 +32,6 @@ namespace CKIEditor.UI.TrackValues
         private void UpdateInstrument(InstrumentDef instrument)
         {
             var listData = instrument.TrackValues.Values.Select(tv => new TrackValueDataProvider(tv)).ToList();
-            
             SetData(listData);    
         }
     }

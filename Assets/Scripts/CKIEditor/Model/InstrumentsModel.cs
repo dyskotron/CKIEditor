@@ -40,7 +40,7 @@ namespace CKIEditor.Model
             _instruments.AddRange(instruments);
 
             var id = _instrumentById.Values.Count;
-            foreach (var instrumentDef in _instruments)
+            foreach (var instrumentDef in instruments)
             {   
                 instrumentDef.Id = id;
                 _instrumentById[id] = instrumentDef;

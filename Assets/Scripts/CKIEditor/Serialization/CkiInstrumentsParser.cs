@@ -9,14 +9,7 @@ using UnityEngine;
 
 namespace CKIEditor.Serialization
 {
-    public interface IInstrumentsParser
-    {
-        List<InstrumentDef> ParseInstruments(string json);
-        InstrumentDef ParseInstrument(string name, JSONNode json);
-        string BuildCkiFile(List<InstrumentDef> instruments);
-    }
-
-    public class InstrumentsParser : IInstrumentsParser
+    public class CkiInstrumentsParser : IInstrumentsParser
     {
         private static int TRACK_VALUE_INT_POS = 5;
         private static int CC_DEF_INT_POS = 3;
@@ -154,7 +147,7 @@ namespace CKIEditor.Serialization
             return trackValueDef;
         }
 
-        public string BuildCkiFile(List<InstrumentDef> instruments)
+        public string SerializeInstruments(List<InstrumentDef> instruments)
         {
             var instrumentData = new JSONObject();
 

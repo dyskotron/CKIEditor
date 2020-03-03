@@ -15,22 +15,23 @@ namespace CKIEditor.UI.TrackValues
         public override void OnRegister()
         {
             base.OnRegister();
-            
-            AddDropdownListener(View.TrackValueTypeDropdown, TrackValueTypeDropdownChanged);
-            AddDropdownListener(View.TrackControlTypeDropdown, TrackControlTypeDropdownChanged);
-            AddDropdownListener(View.CcSelectionDropdown, CcSelectionDropdownChanged);
+
+            AddListeners();
             
             InstrumentCcDefsChangedSignal.AddListener(EditedInstrumentChangedHandler);
-
-            View.TrackValueTypeDropdown.options = OptionsModel.GetTrackValueOptions();
-            View.TrackControlTypeDropdown.options = OptionsModel.GetTrackControlOptions();
-            View.CcSelectionDropdown.options = OptionsModel.GetCcOptions();
         }
 
         public override void OnRemove()
         {
             InstrumentCcDefsChangedSignal.RemoveListener(EditedInstrumentChangedHandler);
             base.OnRemove();
+        }
+        
+        private void AddListeners()
+        {
+            AddDropdownListener(View.TrackValueTypeDropdown, TrackValueTypeDropdownChanged);
+            AddDropdownListener(View.TrackControlTypeDropdown, TrackControlTypeDropdownChanged);
+            AddDropdownListener(View.CcSelectionDropdown, CcSelectionDropdownChanged);   
         }
 
         private void EditedInstrumentChangedHandler()
@@ -41,15 +42,26 @@ namespace CKIEditor.UI.TrackValues
 
         private void TrackValueTypeDropdownChanged(int value)
         {
+            RemoveListeners();
+            
             DataProvider.TrackValue.Type = (TrackValueType) value;
-            DataProvider.TrackValue.Label = InstrumentsModel.GetEditedInstrument().CcDefs[value].Label;
+            var instrument = InstrumentsModel.GetEditedInstrument();
+
+            //get cc label from currently selected cc option
+            var ccId = OptionsModel.GetCCnumberByOptionId(0);
+            DataProvider.TrackValue.MidiCC = ccId;
+            DataProvider.TrackValue.Label = instrument.CcDefs[ccId].Label;
+            
             UpdateView();
+            
+            AddListeners();
         }
 
         private void TrackControlTypeDropdownChanged(int value)
         {
-            
+            RemoveListeners();
             UpdateView();
+            AddListeners();
         }
         
         private void CcSelectionDropdownChanged(int value)
@@ -60,11 +72,19 @@ namespace CKIEditor.UI.TrackValues
         public override void SetData(TrackValueDataProvider dataProvider, int index)
         {
             base.SetData(dataProvider, index);
+            
+            RemoveListeners();
+            
+            View.TrackValueTypeDropdown.options = OptionsModel.GetTrackValueOptions();
+            View.TrackControlTypeDropdown.options = OptionsModel.GetTrackControlOptions();
+            View.CcSelectionDropdown.options = OptionsModel.GetCcOptions();
 
             View.TrackValueTypeDropdown.value = (int) dataProvider.TrackValue.Type;
             View.TrackControlTypeDropdown.value = (int) dataProvider.TrackValue.TrackControl;
             
             UpdateView();
+
+            AddListeners();
         }
 
         private void UpdateView()

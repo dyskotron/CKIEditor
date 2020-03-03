@@ -1,8 +1,9 @@
 namespace CKIEditor.Serialization
 {
-    public class JsonKeys
+    public static class JsonKeys
     {
-        public const string FILE_EXTENSIONS = "CKI";
+        public static string[] FILE_EXTENSIONS = {"CKI", "cki", "txt"};
+        public static string PYRAMID_EXTENSION = "txt";
         public const string INSTRUMENT_DATA = "instrument_data";
         
         //global

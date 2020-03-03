@@ -64,6 +64,7 @@ namespace CKIEditor.UI.InstrumentLibrary
         private void EditedInstrumentChangedHandler(InstrumentDef instrument)
         {
             RefreshInstruments();
+            View.InstrumentDropdown.value = instrument.Id;
         }
 
         protected override void ListItemSelected(int index, InstrumentDef dataProvider)

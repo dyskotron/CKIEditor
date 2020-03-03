@@ -12,7 +12,7 @@ namespace CKIEditor.Controller
     {
         [Inject] public IUiManager UiManager { get; set; }
         [Inject] public IInstrumentsModel InstrumentsModel { get; set; }
-        [Inject] public IInstrumentsParser InstrumentsParser { get; set; }
+        [Inject(BindingKeys.PARSER_CKI)] public IInstrumentsParser InstrumentsParser { get; set; }
         
         [Inject] public InstrumentsImportedSignal InstrumentsImportedSignal { get; set; }
         [Inject] public EditedInstrumentChangedSignal EditedInstrumentChangedSignal { get; set; }

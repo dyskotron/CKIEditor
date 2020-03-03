@@ -16,7 +16,7 @@ namespace CKIEditor.Controller
     public class ExportInstrumentsCommand : Command
     {
         [Inject] public IInstrumentsModel InstrumentsModel { get; set; }
-        [Inject] public IInstrumentsParser InstrumentsParser { get; set; }
+        [Inject(BindingKeys.PARSER_CKI)] public IInstrumentsParser InstrumentsParser { get; set; }
         [Inject] public IPlayerPrefsManager PrefsManager { get; set; }
 
         private const string SAVE_DIRECTORY_KEY = "saveDirectory";
@@ -27,7 +27,7 @@ namespace CKIEditor.Controller
             string path = FileBrowser.SaveFile("Export CKI file",loadDirectory,"Library", JsonKeys.FILE_EXTENSIONS);
             PrefsManager.SetUserData(SAVE_DIRECTORY_KEY, Path.GetDirectoryName(path));
             
-            var json = InstrumentsParser.BuildCkiFile(InstrumentsModel.GetAllInstruments());
+            var json = InstrumentsParser.SerializeInstruments(InstrumentsModel.GetAllInstruments());
             File.WriteAllText(path, json);
         }
     }
